@@ -1,0 +1,794 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="OXYGINE"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\Libraries\;CMake Files\..\Libraries\oxygine-framework\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="oxygine-framework">
+				<Option output="/home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework/liboxygine-framework.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOX_NO_HTTP"/>
+					<Add option="-DOX_HAVE_LIBPNG"/>
+					<Add option="-DOX_HAVE_LIBJPEG"/>
+					<Add directory="/home/abrdej/Libraries/oxygine-framework/oxygine/third_party/linux/libpng"/>
+					<Add directory="/home/abrdej/Libraries/oxygine-framework/oxygine/third_party/linux/libjpeg"/>
+					<Add directory="/home/abrdej/Libraries/oxygine-framework/oxygine/src"/>
+					<Add directory="/home/abrdej/Libraries/oxygine-framework/oxygine/third_party/linux/pthreads/include"/>
+					<Add directory="/home/abrdej/Libraries/oxygine-framework/oxygine/third_party/linux/zlib"/>
+					<Add directory="/usr/include/SDL2"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework/Makefile&quot;  VERBOSE=1 oxygine-framework"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="oxygine-framework/fast">
+				<Option output="/home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework/liboxygine-framework.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOX_NO_HTTP"/>
+					<Add option="-DOX_HAVE_LIBPNG"/>
+					<Add option="-DOX_HAVE_LIBJPEG"/>
+					<Add directory="/home/abrdej/Libraries/oxygine-framework/oxygine/third_party/linux/libpng"/>
+					<Add directory="/home/abrdej/Libraries/oxygine-framework/oxygine/third_party/linux/libjpeg"/>
+					<Add directory="/home/abrdej/Libraries/oxygine-framework/oxygine/src"/>
+					<Add directory="/home/abrdej/Libraries/oxygine-framework/oxygine/third_party/linux/pthreads/include"/>
+					<Add directory="/home/abrdej/Libraries/oxygine-framework/oxygine/third_party/linux/zlib"/>
+					<Add directory="/usr/include/SDL2"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework/Makefile&quot;  VERBOSE=1 oxygine-framework/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/Actor.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/Actor.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/AnimationFrame.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/AnimationFrame.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/AsyncTask.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/AsyncTask.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/Box9Sprite.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/Box9Sprite.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/Button.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/Button.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/ClipRectActor.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/ClipRectActor.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/Clock.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/Clock.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/ColorRectSprite.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/ColorRectSprite.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/DebugActor.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/DebugActor.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/Draggable.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/Draggable.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/Event.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/EventDispatcher.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/EventDispatcher.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/Font.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/Font.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/HttpRequestTask.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/HttpRequestTask.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/Image.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/Image.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/Input.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/Input.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/InputText.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/InputText.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/KeyEvent.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/MaskedRenderer.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/MaskedRenderer.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/MaskedSprite.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/MaskedSprite.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/Material.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/Material.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/MemoryTexture.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/PointerState.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/PointerState.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/Polygon.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/Polygon.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/PostProcess.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/PostProcess.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/ProgressBar.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/ProgressBar.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/Property.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/RenderState.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/STDMaterial.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/STDMaterial.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/STDRenderer.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/STDRenderer.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/Serializable.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/Serializable.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/Serialize.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/Serialize.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/SlidingActor.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/SlidingActor.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/Sprite.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/Sprite.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/Stage.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/Stage.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/TextField.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/TextField.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/TextStyle.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/ThreadLoader.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/ThreadLoader.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/TouchEvent.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/Tween.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/Tween.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/TweenAlphaFade.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/TweenAlphaFade.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/TweenAnim.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/TweenAnim.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/TweenGlow.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/TweenGlow.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/TweenOutline.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/TweenOutline.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/TweenQueue.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/TweenQueue.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/UpdateState.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/VisualStyle.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/VisualStyle.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/WebImage.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/WebImage.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/closure/closure.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/closure/closure_impl.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/core/FileSystem.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/core/FileSystem.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/core/ImageData.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/core/ImageData.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/core/ImageDataOperations.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/core/ImageDataOperations.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/core/Mem2Native.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/core/Mem2Native.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/core/Mutex.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/core/Mutex.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/core/NativeTexture.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/core/NativeTexture.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/core/Object.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/core/Object.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/core/Renderer.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/core/Renderer.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/core/Restorable.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/core/Restorable.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/core/STDFileSystem.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/core/STDFileSystem.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/core/ShaderProgram.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/core/Texture.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/core/Texture.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/core/ThreadDispatcher.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/core/ThreadDispatcher.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/core/ThreadMessages.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/core/UberShaderProgram.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/core/UberShaderProgram.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/core/VertexDeclaration.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/core/VideoDriver.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/core/VideoDriver.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/core/ZipFileSystem.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/core/ZipFileSystem.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/core/file.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/core/file.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/core/gl/NativeTextureGLES.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/core/gl/NativeTextureGLES.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/core/gl/ShaderProgramGL.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/core/gl/ShaderProgramGL.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/core/gl/VertexDeclarationGL.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/core/gl/VertexDeclarationGL.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/core/gl/VideoDriverGL.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/core/gl/VideoDriverGL.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/core/gl/VideoDriverGLES20.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/core/gl/VideoDriverGLES20.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/core/gl/oxgl.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/core/gl/oxgl.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/core/intrusive_ptr.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/core/log.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/core/log.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/core/ox_debug.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/core/oxygine.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/core/oxygine.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/core/pixel.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/core/ref_counter.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/core/system_data.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/core/system_data.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/core/vertex.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/dev_tools/DeveloperMenu.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/dev_tools/DeveloperMenu.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/dev_tools/TexturesInspector.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/dev_tools/TexturesInspector.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/dev_tools/TreeInspector.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/dev_tools/TreeInspector.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/dev_tools/TreeInspectorLine.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/dev_tools/TreeInspectorLine.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/dev_tools/TreeInspectorPage.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/dev_tools/TreeInspectorPage.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/dev_tools/TreeInspectorPreview.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/dev_tools/TreeInspectorPreview.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/initActor.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/json/json-forwards.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/json/json.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/json/jsoncpp.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/key.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/key.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/math/AffineTransform.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/math/AffineTransform.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/math/Color.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/math/Color.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/math/Matrix.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/math/OBBox.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/math/Rect.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/math/ScalarMath.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/math/Vector2.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/math/Vector3.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/math/Vector4.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/minizip/ioapi.c">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/minizip/ioapi.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/minizip/ioapi_mem.c">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/minizip/ioapi_mem.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/minizip/unzip.c">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/minizip/unzip.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/oxygine-forwards.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/oxygine-framework.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/oxygine-include.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/oxygine_include.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/pugixml/pugixml.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/pugixml/pugixml.hpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/res/CreateResourceContext.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/res/CreateResourceContext.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/res/ResAnim.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/res/ResAnim.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/res/ResAtlas.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/res/ResAtlas.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/res/ResAtlasGeneric.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/res/ResAtlasGeneric.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/res/ResAtlasPrebuilt.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/res/ResAtlasPrebuilt.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/res/ResBuffer.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/res/ResBuffer.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/res/ResFont.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/res/ResFont.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/res/ResFontBM.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/res/ResFontBM.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/res/ResStarlingAtlas.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/res/ResStarlingAtlas.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/res/Resource.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/res/Resource.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/res/Resources.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/res/Resources.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/res/SingleResAnim.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/res/SingleResAnim.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/text_utils/Aligner.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/text_utils/Aligner.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/text_utils/Node.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/text_utils/Node.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/text_utils/TextBuilder.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/text_utils/TextBuilder.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/utils/AtlasTool.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/utils/AtlasTool.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/utils/ImageUtils.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/utils/ImageUtils.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/utils/cdecode.c">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/utils/cdecode.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/utils/intrusive_list.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/utils/stringUtils.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/utils/stringUtils.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/winnie_alloc/system_alloc.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/winnie_alloc/system_alloc.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/winnie_alloc/winnie_alloc.cpp">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/winnie_alloc/winnie_alloc.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/Libraries/oxygine-framework/oxygine/src/winnie_alloc/winnie_alloc_config.h">
+			<Option target="oxygine-framework"/>
+		</Unit>
+		<Unit filename="/home/abrdej/pigeon-war-client/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/abrdej/pigeon-war-client/../Libraries/oxygine-framework/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\Libraries\oxygine-framework\"/>
+		</Unit>
+		<Unit filename="/home/abrdej/pigeon-war-client/../Libraries/oxygine-framework/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\Libraries\oxygine-framework\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
