@@ -23,6 +23,11 @@ void extract(nlohmann::json& data, DataTypes&... x) {
 	std::int32_t tab[] = {(extractor(x), 0)...};
 }
 
+template <typename DataType>
+void extract_from_index(nlohmann::json& data, DataType& x, std::size_t i) {
+    x = data[i].get<std::decay_t<decltype(x)>>();
+}
+
 #define BULLET_BITMAP(str) \
     std::string get_bullet_bitmap() const override { \
         return str; \
@@ -109,12 +114,22 @@ struct move_base_handler : base_handler {
         return str; \
     } \
 
+#define MOVE_BITMAP(str) \
+    std::string get_move_bitmap() const override { \
+        return str; \
+    } \
+
+template <bool index_to_return = false>
 struct move_with_return_base_handler : base_handler {
 	std::uint32_t from_index, to_index;
 
 	virtual std::string get_flush_bitmap() const {
 		return "";
 	}
+
+    virtual std::string get_move_bitmap() const {
+        return "";
+    }
 
 	void handle(nlohmann::json& data, game_state& g_state) override {
 		extract(data, from_index, to_index);
@@ -130,21 +145,39 @@ struct move_with_return_base_handler : base_handler {
         sprite->setPriority(100);
         sprite->setFlippedX(from_pos.x - to_pos.x > 0);
 
-
 		auto bitmap = sprite->getResAnim();
 
 		spTweenQueue move_twin = new TweenQueue;
+
+		if (!get_move_bitmap().empty()) {
+            sprite->setResAnim(res::ui.getResAnim(get_move_bitmap()));
+		}
+
 		move_twin->add(Actor::TweenPosition(to_pos),  distance * 5);
+
 
 		if (!get_flush_bitmap().empty()) {
 			move_twin->add(TweenAnim(res::ui.getResAnim(get_flush_bitmap())), 150);
-			move_twin->add(TweenAnim(bitmap), 1);
+            if (!get_move_bitmap().empty()) {
+                move_twin->add(TweenAnim(res::ui.getResAnim(get_move_bitmap())), 1);
+            } else {
+                move_twin->add(TweenAnim(bitmap), 1);
+            }
+		}
+
+		if (index_to_return) {
+            extract_from_index(data, from_index, 3);
+			from_pos = board_index_to_point(from_index);
 		}
 
 		move_twin->add(Actor::TweenPosition(from_pos),  distance * 5);
 
-        sprite->addTween(move_twin)->setDoneCallback([sprite](Event* ev) {
+        sprite->addTween(move_twin)->setDoneCallback([this, sprite, bitmap](Event* ev) {
             sprite->setPriority(0);
+
+            if (!get_move_bitmap().empty()) {
+                sprite->setResAnim(bitmap);
+            }
         });
 
 		g_state.board.give_back(entity_id, from_index);
@@ -216,7 +249,6 @@ struct change_bitmap_base_handler : base_handler {
 
 	void handle(nlohmann::json& data, game_state& g_state) override {
 		extract(data, entity_id);
-
 		sprites_manager::drawer_for(entity_id)->change_bitmap(get_bitmap());
 	}
 };
@@ -226,7 +258,7 @@ struct shoot_handler : shoot_base_handler {
 	EXPLOSION_BITMAP("bum")
 };
 
-struct blow_the_ax_handler : move_with_return_base_handler {
+struct blow_the_ax_handler : move_with_return_base_handler<> {
 
 };
 
@@ -260,7 +292,7 @@ struct laser_handler : shoot_base_handler {
 	BULLET_BITMAP("laser")
 };
 
-struct drain_handler : move_with_return_base_handler {
+struct drain_handler : move_with_return_base_handler<> {
 	void handle(nlohmann::json& data, game_state& g_state) override;
 	FLUSH_BITMAP("native_attack")
 };
@@ -280,7 +312,7 @@ struct protection_field_handler : shoot_base_handler {
 	EXPLOSION_BITMAP("field_shoot")
 };
 
-struct sabers_handler : move_with_return_base_handler {
+struct sabers_handler : move_with_return_base_handler<> {
 	FLUSH_BITMAP("sabers_attack")
 };
 
@@ -296,15 +328,15 @@ struct aura_of_immunity_break_handler : bitmap_flush_base_handler<> {
 	FLUSH_BITMAP("v")
 };
 
-struct basic_melee_attack_handler : move_with_return_base_handler {
+struct basic_melee_attack_handler : move_with_return_base_handler<> {
 	FLUSH_BITMAP("claws")
 };
 
-struct chopper_handler : move_with_return_base_handler {
+struct chopper_handler : move_with_return_base_handler<> {
 	FLUSH_BITMAP("creature_fired")
 };
 
-struct counterattack_handler : move_with_return_base_handler {
+struct counterattack_handler : move_with_return_base_handler<> {
 	FLUSH_BITMAP("native_attack")
 };
 
@@ -313,7 +345,7 @@ struct flame_thrower_handler : shoot_base_handler {
     EXPLOSION_BITMAP("detonation")
 };
 
-struct giant_blow_handler : move_with_return_base_handler {
+struct giant_blow_handler : move_with_return_base_handler<> {
 	FLUSH_BITMAP("giant_do_blow")
 };
 
@@ -335,7 +367,7 @@ struct jaw_spider_handler : bitmap_flush_base_handler<> {
 	FLUSH_BITMAP("jaw_spider")
 };
 
-struct kill_handler : move_with_return_base_handler {
+struct kill_handler : move_with_return_base_handler<> {
 	void handle(nlohmann::json& data, game_state& g_state) override;
 	FLUSH_BITMAP("killer_attack")
 };
@@ -352,7 +384,7 @@ struct prison_connection_handler : bitmap_flush_base_handler<> {
 	FLUSH_BITMAP("protection_field")
 };
 
-struct spear_handler : move_with_return_base_handler {
+struct spear_handler : move_with_return_base_handler<> {
 	FLUSH_BITMAP("guardian_attack")
 };
 
@@ -377,7 +409,7 @@ struct vicious_circle_handler : bitmap_flush_base_handler<false, 200> {
 	FLUSH_BITMAP("magic_energy")
 };
 
-struct warrior_blow_handler : move_with_return_base_handler {
+struct warrior_blow_handler : move_with_return_base_handler<> {
 	FLUSH_BITMAP("warrior_attack")
 };
 
@@ -389,7 +421,7 @@ struct bludgeon_push_handler : base_handler {
 	void handle(nlohmann::json& data, game_state& g_state) override;
 };
 
-struct bludgeon_handler : move_with_return_base_handler {
+struct bludgeon_handler : move_with_return_base_handler<> {
 	FLUSH_BITMAP("bum")
 };
 
@@ -499,5 +531,30 @@ struct flame_burning_handler : shoot_base_handler {
 struct ball_and_chain_handler : bitmap_flush_base_handler<false, 200> {
 	FLUSH_BITMAP("ball_and_chain")
 };
+
+struct charge_handler : move_with_return_base_handler<true> {
+    MOVE_BITMAP("move_charge")
+    FLUSH_BITMAP("reaper_attack")
+};
+
+struct set_insensitivity_handler : change_bitmap_base_handler {
+	CHANGE_BITMAP("reaper_insensitive")
+};
+
+struct set_discharged_handler : change_bitmap_base_handler {
+	CHANGE_BITMAP("reaper_discharged")
+};
+
+struct reaper_no_effect_handler : change_bitmap_base_handler {
+	CHANGE_BITMAP("reaper")
+};
+
+struct detonation_handler : bitmap_flush_base_handler<> {
+    FLUSH_BITMAP("detonation");
+};
+
+//struct throw_bomb_handler : base_handler {
+//
+//};
 
 #endif //PIGEONWAR_ANIMATIONS_HANDLERS_H

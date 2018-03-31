@@ -1,3 +1,4 @@
+#include <iostream>
 #include "entity_holder.h"
 #include "gui/view_constants.h"
 #include "gui/board_panel.h"
@@ -20,8 +21,9 @@ entity_holder::entity_holder(std::uint32_t entity_id,
     sprite->setSize(constants::field_size, constants::field_size);
     sprite->attachTo(getStage());
 
-    ResAnim* resAnim = res::ui.getResAnim(bmt_key);
-    spTween tween = sprite->addTween(TweenAnim(resAnim), 500, -1);
+    //ResAnim* resAnim = res::ui.getResAnim(bmt_key);
+    //spTween tween = sprite->addTween(TweenAnim(resAnim), 500, -1);
+    sprite->setResAnim(res::ui.getResAnim(bmt_key));
 
     sprite->setTouchEnabled(false);
 

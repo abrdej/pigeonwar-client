@@ -51,9 +51,9 @@ void board_panel::update_state(local_state& state) {
                     fields[index]->setResAnim(res::ui.getResAnim("grass_enemy"));
             } else if (state.actual_target_type == target_types::friendly) {
                 if (state.valid_movements.find(index) != std::end(state.valid_movements))
-                    fields[index]->setResAnim(res::ui.getResAnim("grass_boost_bitmap"));
+                    fields[index]->setResAnim(res::ui.getResAnim("grass_boost"));
                 else
-                    fields[index]->setResAnim(res::ui.getResAnim("grass_friendly_bitmap"));
+                    fields[index]->setResAnim(res::ui.getResAnim("grass_friendly"));
             } else {
                 fields[index]->setResAnim(res::ui.getResAnim("grass_move"));
             }

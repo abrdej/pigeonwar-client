@@ -42,6 +42,8 @@
 		<image file="grass_enemy.png" />
 		<image file="grass_damage.png" />
 		<image file="grass_move.png" />
+		<image file="grass_friendly.png" />
+		<image file="grass_boost.png" />
 		<image file="end_turn.png" />
 		<image file="bullet.png" />
 		<image file="grenade.png" />
@@ -54,6 +56,9 @@
 		<image file="lightning.png" />
 		<image file="moveable.png" />
 		<image file="handcannon.png" />
+		<image file="reaper_attack.png" />
+		<image file="reaper_insensitive.png" />
+		<image file="reaper_discharged.png" />
 		<image file="protection_field.png" />
 		<image file="sword_blow.png" />
 		<image file="dodge.png" />
@@ -127,6 +132,13 @@
 		<image file="handcannon_explosion.png" />
 		<image file="saberhand_transparency.png" />
 		<image file="shield.png" />
+		<image file="reaper.png" />
+		<image file="charge.png" />
+		<image file="move_charge.png" />
+		<image file="meteorite_explosion.png" />
+		<image file="grenadier.png" />
+		<image file="bomb.png" />
+		<image file="selfdetonation.png" />
 	</atlas>
 
 	<font file="main.fnt" />

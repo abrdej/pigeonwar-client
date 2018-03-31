@@ -8475,6 +8475,8 @@ entity_holder.h
 /home/abrdej/pigeon-war-client/src/sprites/entity_holder.h
 
 /home/abrdej/pigeon-war-client/src/sprites/entity_holder.cpp
+iostream
+-
 entity_holder.h
 /home/abrdej/pigeon-war-client/src/sprites/entity_holder.h
 gui/view_constants.h

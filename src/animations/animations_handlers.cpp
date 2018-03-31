@@ -572,7 +572,7 @@ void meteorite_handler::handle(nlohmann::json& data, game_state& g_state) {
 
     spTweenQueue bullet_twin = new TweenQueue;
     bullet_twin->add(Actor::TweenPosition(to_pos),  distance * 2);
-    bullet_twin->add(TweenAnim(res::ui.getResAnim("detonation")), 250);
+    bullet_twin->add(TweenAnim(res::ui.getResAnim("meteorite_explosion")), 250);
     bullet_twin->detachWhenDone();
     bullet->addTween(bullet_twin);
 

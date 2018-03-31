@@ -145,6 +145,19 @@ void game::process_messages() {
                 std::uint32_t entity_id_to_remove = data["remove_entity"];
                 sprites_manager::remove_sprite(entity_id_to_remove);
 
+            } else if (data.count("create_entity")) {
+
+                std::uint32_t entity_id = data["create_entity"];
+                std::string name = data["name"];
+                std::int32_t health = data["health"];
+                std::uint32_t index = data["index"];
+
+                sprites_manager::update_sprite(entity_id,
+                                               name,
+                                               health,
+                                               index);
+
+
             } else if (data.count("end_turn")) {
                 std::uint32_t active_player_id = data["end_turn"];
                 std::cout << "end_turn: " << active_player_id << "\n";

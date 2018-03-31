@@ -71,4 +71,9 @@ void animations_service::initialize() {
 	add<flame_burning_handler>("flame_burning");
 	add<change_power_handler>("change_power");
 	add<ball_and_chain_handler>("ball_and_chain");
+	add<charge_handler>("charge");
+	add<set_insensitivity_handler>("set_insensitivity");
+	add<set_discharged_handler>("set_discharged");
+	add<reaper_no_effect_handler>("reaper_no_effect");
+	add<detonation_handler>("detonation");
 }
