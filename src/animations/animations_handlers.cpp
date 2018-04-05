@@ -147,19 +147,6 @@ void giant_ram_handler::handle(nlohmann::json& data, game_state& g_state) {
     animations_service::set_tween(move_tween);
 }
 
-void saw_passing_handler::handle(nlohmann::json& data, game_state& g_state) {
-
-//	std::uint32_t from_index, to_index;
-//	extract(data, from_index, to_index);
-//
-//	auto entity_id = g_state.board.take(from_index);
-//
-//	animation::player<animation::move>::launch(animation::move(from_index, to_index, entity_id));
-//	animation::base_player::play();
-//
-//	g_state.board.give_back(entity_id, to_index);
-}
-
 void kill_handler::handle(nlohmann::json& data, game_state& g_state) {
 //	std::uint32_t from_index, to_index, enemy_index;
 //	extract(data, from_index, to_index, enemy_index);
@@ -577,4 +564,23 @@ void meteorite_handler::handle(nlohmann::json& data, game_state& g_state) {
     bullet->addTween(bullet_twin);
 
     animations_service::set_tween(bullet_twin);
+}
+
+void transmission_handler::handle(nlohmann::json& data, game_state& g_state) {
+
+    std::uint32_t from_index, to_index;
+    extract(data, from_index, to_index);
+
+    auto entity_id = g_state.board.at(from_index);
+    auto entity_holder = sprites_manager::drawer_for(entity_id);
+
+    auto transmission_tween = entity_holder->sprite->addTween(Actor::TweenAlpha(0), 250);
+    transmission_tween->setDoneCallback(
+            [&g_state, entity_holder, from_index, to_index, transmission_tween](Event*) mutable {
+        entity_holder->set_pos(to_index);
+        g_state.board.move(from_index, to_index);
+        transmission_tween = entity_holder->sprite->addTween(Actor::TweenAlpha(255), 250);
+    });
+
+    animations_service::set_tween(transmission_tween);
 }

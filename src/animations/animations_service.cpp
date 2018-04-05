@@ -76,4 +76,6 @@ void animations_service::initialize() {
 	add<set_discharged_handler>("set_discharged");
 	add<reaper_no_effect_handler>("reaper_no_effect");
 	add<detonation_handler>("detonation");
+	add<repair_handler>("repair");
+	add<transmission_handler>("transmission");
 }

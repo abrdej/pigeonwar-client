@@ -1,4 +1,4 @@
-# Install script for directory: /home/abrdej/Libraries/oxygine-framework
+# Install script for directory: /home/abrdej/libraries/oxygine-framework
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,13 +34,13 @@ endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/./debug" TYPE STATIC_LIBRARY FILES "/home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework/liboxygine-framework.a")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/./debug" TYPE STATIC_LIBRARY FILES "/home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework/liboxygine-framework.a")
   endif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/./release" TYPE STATIC_LIBRARY FILES "/home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework/liboxygine-framework.a")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/./release" TYPE STATIC_LIBRARY FILES "/home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework/liboxygine-framework.a")
   endif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
 endif()
 

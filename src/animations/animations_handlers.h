@@ -491,8 +491,7 @@ struct soul_out_handler : bitmap_flush_base_handler<> {
 	FLUSH_BITMAP("soul")
 };
 
-struct saw_passing_handler : base_handler {
-	void handle(nlohmann::json& data, game_state& g_state) override;
+struct saw_passing_handler : move_base_handler {
 };
 
 struct arrow_handler : shoot_base_handler {
@@ -520,7 +519,7 @@ struct meteorite_handler : base_handler {
 };
 
 struct purification_handler : bitmap_flush_base_handler<> {
-	FLUSH_BITMAP("uselessness")
+	FLUSH_BITMAP("purification")
 };
 
 struct flame_burning_handler : shoot_base_handler {
@@ -553,8 +552,12 @@ struct detonation_handler : bitmap_flush_base_handler<> {
     FLUSH_BITMAP("detonation");
 };
 
-//struct throw_bomb_handler : base_handler {
-//
-//};
+struct repair_handler : bitmap_flush_base_handler<> {
+    FLUSH_BITMAP("repair");
+};
+
+struct transmission_handler : base_handler {
+	void handle(nlohmann::json& data, game_state& g_state) override;
+};
 
 #endif //PIGEONWAR_ANIMATIONS_HANDLERS_H

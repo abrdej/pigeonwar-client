@@ -139,6 +139,11 @@
 		<image file="grenadier.png" />
 		<image file="bomb.png" />
 		<image file="selfdetonation.png" />
+		<image file="cure_anim.png" />
+		<image file="mechanical_saw.png" />
+		<image file="repair.png" />
+		<image file="eye.png" />
+		<image file="transmission.png" />
 	</atlas>
 
 	<font file="main.fnt" />

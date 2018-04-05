@@ -1,4 +1,4 @@
-# Install script for directory: /home/abrdej/pigeon-war-client
+# Install script for directory: /home/abrdej/pigeonwar-client
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework/cmake_install.cmake")
+  include("/home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework/cmake_install.cmake")
 
 endif()
 
@@ -46,5 +46,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/abrdej/pigeon-war-client/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/abrdej/pigeonwar-client/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

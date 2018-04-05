@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/abrdej/Applications/clion-2017.3.3/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/abrdej/clion-2017.3.3/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/abrdej/Applications/clion-2017.3.3/bin/cmake/bin/cmake -E remove -f
+RM = /home/abrdej/clion-2017.3.3/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/abrdej/pigeon-war-client
+CMAKE_SOURCE_DIR = /home/abrdej/pigeonwar-client
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/abrdej/pigeon-war-client/cmake-build-debug
+CMAKE_BINARY_DIR = /home/abrdej/pigeonwar-client/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include oxygine-framework/CMakeFiles/oxygine-framework.dir/depend.make
@@ -58,17 +58,17 @@ include oxygine-framework/CMakeFiles/oxygine-framework.dir/progress.make
 include oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Actor.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Actor.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/Actor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Actor.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/Actor.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/Actor.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Actor.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/Actor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Actor.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/Actor.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/Actor.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Actor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/Actor.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/Actor.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/Actor.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/Actor.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/Actor.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Actor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/Actor.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/Actor.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/Actor.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/Actor.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/Actor.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Actor.cpp.o.requires:
 
@@ -82,17 +82,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Actor.cpp.o.provi
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/AnimationFrame.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/AnimationFrame.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/AnimationFrame.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/AnimationFrame.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/AnimationFrame.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/AnimationFrame.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/AnimationFrame.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/AnimationFrame.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/AnimationFrame.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/AnimationFrame.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/AnimationFrame.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/AnimationFrame.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/AnimationFrame.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/AnimationFrame.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/AnimationFrame.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/AnimationFrame.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/AnimationFrame.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/AnimationFrame.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/AnimationFrame.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/AnimationFrame.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/AnimationFrame.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/AnimationFrame.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/AnimationFrame.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/AnimationFrame.cpp.o.requires:
 
@@ -106,17 +106,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/AnimationFrame.cp
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/AsyncTask.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/AsyncTask.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/AsyncTask.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/AsyncTask.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/AsyncTask.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/AsyncTask.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/AsyncTask.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/AsyncTask.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/AsyncTask.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/AsyncTask.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/AsyncTask.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/AsyncTask.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/AsyncTask.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/AsyncTask.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/AsyncTask.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/AsyncTask.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/AsyncTask.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/AsyncTask.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/AsyncTask.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/AsyncTask.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/AsyncTask.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/AsyncTask.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/AsyncTask.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/AsyncTask.cpp.o.requires:
 
@@ -130,17 +130,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/AsyncTask.cpp.o.p
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Box9Sprite.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Box9Sprite.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/Box9Sprite.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Box9Sprite.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/Box9Sprite.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/Box9Sprite.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Box9Sprite.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/Box9Sprite.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Box9Sprite.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/Box9Sprite.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/Box9Sprite.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Box9Sprite.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/Box9Sprite.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/Box9Sprite.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/Box9Sprite.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/Box9Sprite.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/Box9Sprite.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Box9Sprite.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/Box9Sprite.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/Box9Sprite.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/Box9Sprite.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/Box9Sprite.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/Box9Sprite.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Box9Sprite.cpp.o.requires:
 
@@ -154,17 +154,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Box9Sprite.cpp.o.
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Button.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Button.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/Button.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Button.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/Button.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/Button.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Button.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/Button.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Button.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/Button.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/Button.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Button.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/Button.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/Button.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/Button.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/Button.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/Button.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Button.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/Button.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/Button.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/Button.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/Button.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/Button.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Button.cpp.o.requires:
 
@@ -178,17 +178,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Button.cpp.o.prov
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/ClipRectActor.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/ClipRectActor.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/ClipRectActor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/ClipRectActor.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/ClipRectActor.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/ClipRectActor.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/ClipRectActor.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/ClipRectActor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/ClipRectActor.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/ClipRectActor.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/ClipRectActor.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/ClipRectActor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/ClipRectActor.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/ClipRectActor.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/ClipRectActor.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/ClipRectActor.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/ClipRectActor.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/ClipRectActor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/ClipRectActor.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/ClipRectActor.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/ClipRectActor.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/ClipRectActor.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/ClipRectActor.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/ClipRectActor.cpp.o.requires:
 
@@ -202,17 +202,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/ClipRectActor.cpp
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Clock.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Clock.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/Clock.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Clock.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/Clock.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/Clock.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Clock.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/Clock.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Clock.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/Clock.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/Clock.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Clock.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/Clock.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/Clock.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/Clock.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/Clock.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/Clock.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Clock.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/Clock.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/Clock.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/Clock.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/Clock.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/Clock.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Clock.cpp.o.requires:
 
@@ -226,17 +226,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Clock.cpp.o.provi
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/ColorRectSprite.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/ColorRectSprite.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/ColorRectSprite.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/ColorRectSprite.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/ColorRectSprite.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/ColorRectSprite.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/ColorRectSprite.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/ColorRectSprite.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/ColorRectSprite.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/ColorRectSprite.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/ColorRectSprite.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/ColorRectSprite.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/ColorRectSprite.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/ColorRectSprite.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/ColorRectSprite.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/ColorRectSprite.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/ColorRectSprite.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/ColorRectSprite.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/ColorRectSprite.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/ColorRectSprite.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/ColorRectSprite.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/ColorRectSprite.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/ColorRectSprite.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/ColorRectSprite.cpp.o.requires:
 
@@ -250,17 +250,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/ColorRectSprite.c
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/DebugActor.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/DebugActor.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/DebugActor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/DebugActor.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/DebugActor.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/DebugActor.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/DebugActor.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/DebugActor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/DebugActor.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/DebugActor.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/DebugActor.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/DebugActor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/DebugActor.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/DebugActor.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/DebugActor.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/DebugActor.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/DebugActor.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/DebugActor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/DebugActor.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/DebugActor.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/DebugActor.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/DebugActor.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/DebugActor.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/DebugActor.cpp.o.requires:
 
@@ -274,17 +274,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/DebugActor.cpp.o.
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Draggable.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Draggable.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/Draggable.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Draggable.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/Draggable.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/Draggable.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Draggable.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/Draggable.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Draggable.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/Draggable.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/Draggable.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Draggable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/Draggable.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/Draggable.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/Draggable.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/Draggable.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/Draggable.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Draggable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/Draggable.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/Draggable.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/Draggable.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/Draggable.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/Draggable.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Draggable.cpp.o.requires:
 
@@ -298,17 +298,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Draggable.cpp.o.p
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/EventDispatcher.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/EventDispatcher.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/EventDispatcher.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/EventDispatcher.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/EventDispatcher.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/EventDispatcher.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/EventDispatcher.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/EventDispatcher.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/EventDispatcher.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/EventDispatcher.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/EventDispatcher.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/EventDispatcher.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/EventDispatcher.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/EventDispatcher.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/EventDispatcher.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/EventDispatcher.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/EventDispatcher.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/EventDispatcher.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/EventDispatcher.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/EventDispatcher.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/EventDispatcher.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/EventDispatcher.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/EventDispatcher.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/EventDispatcher.cpp.o.requires:
 
@@ -322,17 +322,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/EventDispatcher.c
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Font.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Font.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/Font.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Font.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/Font.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/Font.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Font.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/Font.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Font.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/Font.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/Font.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Font.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/Font.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/Font.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/Font.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/Font.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/Font.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Font.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/Font.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/Font.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/Font.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/Font.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/Font.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Font.cpp.o.requires:
 
@@ -346,17 +346,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Font.cpp.o.provid
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/HttpRequestTask.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/HttpRequestTask.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/HttpRequestTask.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/HttpRequestTask.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/HttpRequestTask.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/HttpRequestTask.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/HttpRequestTask.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/HttpRequestTask.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/HttpRequestTask.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/HttpRequestTask.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/HttpRequestTask.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/HttpRequestTask.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/HttpRequestTask.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/HttpRequestTask.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/HttpRequestTask.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/HttpRequestTask.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/HttpRequestTask.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/HttpRequestTask.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/HttpRequestTask.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/HttpRequestTask.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/HttpRequestTask.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/HttpRequestTask.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/HttpRequestTask.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/HttpRequestTask.cpp.o.requires:
 
@@ -370,17 +370,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/HttpRequestTask.c
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Image.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Image.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/Image.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Image.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/Image.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/Image.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Image.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/Image.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Image.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/Image.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/Image.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Image.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/Image.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/Image.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/Image.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/Image.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/Image.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/Image.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/Image.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/Image.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/Image.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/Image.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Image.cpp.o.requires:
 
@@ -394,17 +394,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Image.cpp.o.provi
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Input.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Input.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/Input.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Input.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/Input.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/Input.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Input.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/Input.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Input.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/Input.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/Input.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Input.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/Input.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/Input.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/Input.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/Input.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/Input.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Input.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/Input.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/Input.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/Input.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/Input.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/Input.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Input.cpp.o.requires:
 
@@ -418,17 +418,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Input.cpp.o.provi
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/InputText.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/InputText.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/InputText.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/InputText.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/InputText.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/InputText.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/InputText.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/InputText.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/InputText.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/InputText.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/InputText.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/InputText.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/InputText.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/InputText.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/InputText.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/InputText.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/InputText.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/InputText.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/InputText.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/InputText.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/InputText.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/InputText.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/InputText.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/InputText.cpp.o.requires:
 
@@ -442,17 +442,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/InputText.cpp.o.p
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/MaskedRenderer.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/MaskedRenderer.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/MaskedRenderer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/MaskedRenderer.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/MaskedRenderer.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/MaskedRenderer.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/MaskedRenderer.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/MaskedRenderer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/MaskedRenderer.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/MaskedRenderer.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/MaskedRenderer.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/MaskedRenderer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/MaskedRenderer.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/MaskedRenderer.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/MaskedRenderer.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/MaskedRenderer.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/MaskedRenderer.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/MaskedRenderer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/MaskedRenderer.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/MaskedRenderer.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/MaskedRenderer.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/MaskedRenderer.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/MaskedRenderer.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/MaskedRenderer.cpp.o.requires:
 
@@ -466,17 +466,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/MaskedRenderer.cp
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/MaskedSprite.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/MaskedSprite.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/MaskedSprite.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/MaskedSprite.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/MaskedSprite.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/MaskedSprite.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/MaskedSprite.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/MaskedSprite.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/MaskedSprite.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/MaskedSprite.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/MaskedSprite.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/MaskedSprite.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/MaskedSprite.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/MaskedSprite.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/MaskedSprite.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/MaskedSprite.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/MaskedSprite.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/MaskedSprite.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/MaskedSprite.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/MaskedSprite.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/MaskedSprite.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/MaskedSprite.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/MaskedSprite.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/MaskedSprite.cpp.o.requires:
 
@@ -490,17 +490,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/MaskedSprite.cpp.
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Material.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Material.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/Material.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Material.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/Material.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/Material.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Material.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/Material.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Material.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/Material.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/Material.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Material.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/Material.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/Material.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/Material.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/Material.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/Material.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Material.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/Material.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/Material.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/Material.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/Material.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/Material.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Material.cpp.o.requires:
 
@@ -514,17 +514,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Material.cpp.o.pr
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/PointerState.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/PointerState.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/PointerState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/PointerState.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/PointerState.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/PointerState.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/PointerState.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/PointerState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/PointerState.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/PointerState.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/PointerState.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/PointerState.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/PointerState.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/PointerState.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/PointerState.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/PointerState.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/PointerState.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/PointerState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/PointerState.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/PointerState.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/PointerState.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/PointerState.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/PointerState.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/PointerState.cpp.o.requires:
 
@@ -538,17 +538,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/PointerState.cpp.
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Polygon.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Polygon.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/Polygon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Polygon.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/Polygon.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/Polygon.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Polygon.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/Polygon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Polygon.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/Polygon.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/Polygon.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Polygon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/Polygon.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/Polygon.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/Polygon.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/Polygon.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/Polygon.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Polygon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/Polygon.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/Polygon.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/Polygon.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/Polygon.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/Polygon.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Polygon.cpp.o.requires:
 
@@ -562,17 +562,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Polygon.cpp.o.pro
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/PostProcess.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/PostProcess.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/PostProcess.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/PostProcess.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/PostProcess.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/PostProcess.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/PostProcess.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/PostProcess.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/PostProcess.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/PostProcess.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/PostProcess.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/PostProcess.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/PostProcess.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/PostProcess.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/PostProcess.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/PostProcess.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/PostProcess.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/PostProcess.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/PostProcess.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/PostProcess.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/PostProcess.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/PostProcess.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/PostProcess.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/PostProcess.cpp.o.requires:
 
@@ -586,17 +586,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/PostProcess.cpp.o
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/ProgressBar.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/ProgressBar.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/ProgressBar.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/ProgressBar.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/ProgressBar.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/ProgressBar.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/ProgressBar.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/ProgressBar.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/ProgressBar.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/ProgressBar.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/ProgressBar.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/ProgressBar.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/ProgressBar.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/ProgressBar.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/ProgressBar.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/ProgressBar.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/ProgressBar.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/ProgressBar.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/ProgressBar.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/ProgressBar.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/ProgressBar.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/ProgressBar.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/ProgressBar.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/ProgressBar.cpp.o.requires:
 
@@ -610,17 +610,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/ProgressBar.cpp.o
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/STDMaterial.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/STDMaterial.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/STDMaterial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/STDMaterial.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/STDMaterial.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/STDMaterial.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/STDMaterial.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/STDMaterial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/STDMaterial.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/STDMaterial.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/STDMaterial.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/STDMaterial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/STDMaterial.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/STDMaterial.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/STDMaterial.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/STDMaterial.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/STDMaterial.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/STDMaterial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/STDMaterial.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/STDMaterial.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/STDMaterial.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/STDMaterial.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/STDMaterial.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/STDMaterial.cpp.o.requires:
 
@@ -634,17 +634,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/STDMaterial.cpp.o
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/STDRenderer.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/STDRenderer.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/STDRenderer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/STDRenderer.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/STDRenderer.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/STDRenderer.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/STDRenderer.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/STDRenderer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/STDRenderer.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/STDRenderer.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/STDRenderer.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/STDRenderer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/STDRenderer.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/STDRenderer.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/STDRenderer.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/STDRenderer.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/STDRenderer.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/STDRenderer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/STDRenderer.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/STDRenderer.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/STDRenderer.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/STDRenderer.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/STDRenderer.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/STDRenderer.cpp.o.requires:
 
@@ -658,17 +658,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/STDRenderer.cpp.o
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Serializable.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Serializable.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/Serializable.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Serializable.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/Serializable.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/Serializable.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Serializable.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/Serializable.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Serializable.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/Serializable.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/Serializable.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Serializable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/Serializable.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/Serializable.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/Serializable.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/Serializable.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/Serializable.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Serializable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/Serializable.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/Serializable.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/Serializable.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/Serializable.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/Serializable.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Serializable.cpp.o.requires:
 
@@ -682,17 +682,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Serializable.cpp.
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Serialize.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Serialize.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/Serialize.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Serialize.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/Serialize.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/Serialize.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Serialize.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/Serialize.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Serialize.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/Serialize.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/Serialize.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Serialize.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/Serialize.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/Serialize.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/Serialize.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/Serialize.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/Serialize.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Serialize.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/Serialize.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/Serialize.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/Serialize.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/Serialize.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/Serialize.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Serialize.cpp.o.requires:
 
@@ -706,17 +706,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Serialize.cpp.o.p
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/SlidingActor.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/SlidingActor.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/SlidingActor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/SlidingActor.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/SlidingActor.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/SlidingActor.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/SlidingActor.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/SlidingActor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/SlidingActor.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/SlidingActor.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/SlidingActor.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/SlidingActor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/SlidingActor.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/SlidingActor.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/SlidingActor.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/SlidingActor.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/SlidingActor.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/SlidingActor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/SlidingActor.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/SlidingActor.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/SlidingActor.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/SlidingActor.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/SlidingActor.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/SlidingActor.cpp.o.requires:
 
@@ -730,17 +730,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/SlidingActor.cpp.
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Sprite.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Sprite.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/Sprite.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Sprite.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/Sprite.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/Sprite.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Sprite.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/Sprite.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Sprite.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/Sprite.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/Sprite.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Sprite.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/Sprite.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/Sprite.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/Sprite.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/Sprite.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/Sprite.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Sprite.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/Sprite.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/Sprite.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/Sprite.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/Sprite.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/Sprite.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Sprite.cpp.o.requires:
 
@@ -754,17 +754,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Sprite.cpp.o.prov
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Stage.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Stage.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/Stage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Stage.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/Stage.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/Stage.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Stage.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/Stage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Stage.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/Stage.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/Stage.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Stage.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/Stage.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/Stage.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/Stage.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/Stage.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/Stage.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Stage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/Stage.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/Stage.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/Stage.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/Stage.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/Stage.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Stage.cpp.o.requires:
 
@@ -778,17 +778,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Stage.cpp.o.provi
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TextField.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TextField.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/TextField.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TextField.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/TextField.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/TextField.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TextField.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/TextField.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TextField.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/TextField.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/TextField.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TextField.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/TextField.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/TextField.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/TextField.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/TextField.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/TextField.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TextField.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/TextField.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/TextField.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/TextField.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/TextField.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/TextField.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TextField.cpp.o.requires:
 
@@ -802,17 +802,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TextField.cpp.o.p
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/ThreadLoader.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/ThreadLoader.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/ThreadLoader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/ThreadLoader.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/ThreadLoader.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/ThreadLoader.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/ThreadLoader.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/ThreadLoader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/ThreadLoader.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/ThreadLoader.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/ThreadLoader.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/ThreadLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/ThreadLoader.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/ThreadLoader.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/ThreadLoader.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/ThreadLoader.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/ThreadLoader.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/ThreadLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/ThreadLoader.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/ThreadLoader.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/ThreadLoader.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/ThreadLoader.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/ThreadLoader.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/ThreadLoader.cpp.o.requires:
 
@@ -826,17 +826,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/ThreadLoader.cpp.
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Tween.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Tween.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/Tween.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Tween.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/Tween.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/Tween.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Tween.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/Tween.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Tween.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/Tween.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/Tween.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Tween.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/Tween.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/Tween.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/Tween.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/Tween.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/Tween.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Tween.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/Tween.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/Tween.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/Tween.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/Tween.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/Tween.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Tween.cpp.o.requires:
 
@@ -850,17 +850,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Tween.cpp.o.provi
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TweenAlphaFade.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TweenAlphaFade.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/TweenAlphaFade.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TweenAlphaFade.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/TweenAlphaFade.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/TweenAlphaFade.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TweenAlphaFade.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/TweenAlphaFade.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TweenAlphaFade.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/TweenAlphaFade.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/TweenAlphaFade.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TweenAlphaFade.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/TweenAlphaFade.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/TweenAlphaFade.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/TweenAlphaFade.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/TweenAlphaFade.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/TweenAlphaFade.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TweenAlphaFade.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/TweenAlphaFade.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/TweenAlphaFade.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/TweenAlphaFade.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/TweenAlphaFade.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/TweenAlphaFade.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TweenAlphaFade.cpp.o.requires:
 
@@ -874,17 +874,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TweenAlphaFade.cp
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TweenAnim.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TweenAnim.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/TweenAnim.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TweenAnim.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/TweenAnim.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/TweenAnim.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TweenAnim.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/TweenAnim.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TweenAnim.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/TweenAnim.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/TweenAnim.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TweenAnim.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/TweenAnim.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/TweenAnim.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/TweenAnim.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/TweenAnim.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/TweenAnim.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TweenAnim.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/TweenAnim.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/TweenAnim.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/TweenAnim.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/TweenAnim.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/TweenAnim.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TweenAnim.cpp.o.requires:
 
@@ -898,17 +898,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TweenAnim.cpp.o.p
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TweenGlow.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TweenGlow.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/TweenGlow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TweenGlow.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/TweenGlow.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/TweenGlow.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TweenGlow.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/TweenGlow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TweenGlow.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/TweenGlow.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/TweenGlow.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TweenGlow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/TweenGlow.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/TweenGlow.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/TweenGlow.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/TweenGlow.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/TweenGlow.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TweenGlow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/TweenGlow.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/TweenGlow.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/TweenGlow.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/TweenGlow.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/TweenGlow.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TweenGlow.cpp.o.requires:
 
@@ -922,17 +922,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TweenGlow.cpp.o.p
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TweenOutline.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TweenOutline.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/TweenOutline.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TweenOutline.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/TweenOutline.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/TweenOutline.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TweenOutline.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/TweenOutline.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TweenOutline.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/TweenOutline.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/TweenOutline.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TweenOutline.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/TweenOutline.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/TweenOutline.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/TweenOutline.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/TweenOutline.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/TweenOutline.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TweenOutline.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/TweenOutline.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/TweenOutline.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/TweenOutline.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/TweenOutline.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/TweenOutline.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TweenOutline.cpp.o.requires:
 
@@ -946,17 +946,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TweenOutline.cpp.
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TweenQueue.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TweenQueue.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/TweenQueue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TweenQueue.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/TweenQueue.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/TweenQueue.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TweenQueue.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/TweenQueue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TweenQueue.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/TweenQueue.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/TweenQueue.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TweenQueue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/TweenQueue.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/TweenQueue.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/TweenQueue.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/TweenQueue.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/TweenQueue.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TweenQueue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/TweenQueue.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/TweenQueue.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/TweenQueue.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/TweenQueue.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/TweenQueue.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TweenQueue.cpp.o.requires:
 
@@ -970,17 +970,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TweenQueue.cpp.o.
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/VisualStyle.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/VisualStyle.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/VisualStyle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/VisualStyle.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/VisualStyle.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/VisualStyle.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/VisualStyle.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/VisualStyle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/VisualStyle.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/VisualStyle.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/VisualStyle.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/VisualStyle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/VisualStyle.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/VisualStyle.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/VisualStyle.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/VisualStyle.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/VisualStyle.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/VisualStyle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/VisualStyle.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/VisualStyle.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/VisualStyle.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/VisualStyle.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/VisualStyle.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/VisualStyle.cpp.o.requires:
 
@@ -994,17 +994,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/VisualStyle.cpp.o
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/WebImage.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/WebImage.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/WebImage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/WebImage.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/WebImage.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/WebImage.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/WebImage.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/WebImage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/WebImage.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/WebImage.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/WebImage.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/WebImage.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/WebImage.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/WebImage.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/WebImage.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/WebImage.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/WebImage.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/WebImage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/WebImage.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/WebImage.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/WebImage.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/WebImage.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/WebImage.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/WebImage.cpp.o.requires:
 
@@ -1018,17 +1018,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/WebImage.cpp.o.pr
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/key.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/key.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/key.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/key.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/key.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/key.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/key.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/key.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/key.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/key.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/key.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/key.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/key.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/key.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/key.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/key.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/key.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/key.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/key.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/key.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/key.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/key.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/key.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/key.cpp.o.requires:
 
@@ -1042,17 +1042,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/key.cpp.o.provide
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/minizip/ioapi.c.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/minizip/ioapi.c.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/minizip/ioapi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/minizip/ioapi.c.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/minizip/ioapi.c.o   -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/minizip/ioapi.c
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/minizip/ioapi.c.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/minizip/ioapi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/minizip/ioapi.c.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/minizip/ioapi.c.o   -c /home/abrdej/libraries/oxygine-framework/oxygine/src/minizip/ioapi.c
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/minizip/ioapi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/oxygine-framework.dir/oxygine/src/minizip/ioapi.c.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/minizip/ioapi.c > CMakeFiles/oxygine-framework.dir/oxygine/src/minizip/ioapi.c.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/minizip/ioapi.c > CMakeFiles/oxygine-framework.dir/oxygine/src/minizip/ioapi.c.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/minizip/ioapi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/minizip/ioapi.c.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/minizip/ioapi.c -o CMakeFiles/oxygine-framework.dir/oxygine/src/minizip/ioapi.c.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/minizip/ioapi.c -o CMakeFiles/oxygine-framework.dir/oxygine/src/minizip/ioapi.c.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/minizip/ioapi.c.o.requires:
 
@@ -1066,17 +1066,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/minizip/ioapi.c.o
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/minizip/ioapi_mem.c.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/minizip/ioapi_mem.c.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/minizip/ioapi_mem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/minizip/ioapi_mem.c.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/minizip/ioapi_mem.c.o   -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/minizip/ioapi_mem.c
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/minizip/ioapi_mem.c.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/minizip/ioapi_mem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/minizip/ioapi_mem.c.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/minizip/ioapi_mem.c.o   -c /home/abrdej/libraries/oxygine-framework/oxygine/src/minizip/ioapi_mem.c
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/minizip/ioapi_mem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/oxygine-framework.dir/oxygine/src/minizip/ioapi_mem.c.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/minizip/ioapi_mem.c > CMakeFiles/oxygine-framework.dir/oxygine/src/minizip/ioapi_mem.c.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/minizip/ioapi_mem.c > CMakeFiles/oxygine-framework.dir/oxygine/src/minizip/ioapi_mem.c.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/minizip/ioapi_mem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/minizip/ioapi_mem.c.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/minizip/ioapi_mem.c -o CMakeFiles/oxygine-framework.dir/oxygine/src/minizip/ioapi_mem.c.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/minizip/ioapi_mem.c -o CMakeFiles/oxygine-framework.dir/oxygine/src/minizip/ioapi_mem.c.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/minizip/ioapi_mem.c.o.requires:
 
@@ -1090,17 +1090,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/minizip/ioapi_mem
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/minizip/unzip.c.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/minizip/unzip.c.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/minizip/unzip.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/minizip/unzip.c.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/minizip/unzip.c.o   -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/minizip/unzip.c
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/minizip/unzip.c.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/minizip/unzip.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/minizip/unzip.c.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/minizip/unzip.c.o   -c /home/abrdej/libraries/oxygine-framework/oxygine/src/minizip/unzip.c
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/minizip/unzip.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/oxygine-framework.dir/oxygine/src/minizip/unzip.c.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/minizip/unzip.c > CMakeFiles/oxygine-framework.dir/oxygine/src/minizip/unzip.c.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/minizip/unzip.c > CMakeFiles/oxygine-framework.dir/oxygine/src/minizip/unzip.c.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/minizip/unzip.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/minizip/unzip.c.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/minizip/unzip.c -o CMakeFiles/oxygine-framework.dir/oxygine/src/minizip/unzip.c.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/minizip/unzip.c -o CMakeFiles/oxygine-framework.dir/oxygine/src/minizip/unzip.c.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/minizip/unzip.c.o.requires:
 
@@ -1114,17 +1114,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/minizip/unzip.c.o
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/FileSystem.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/FileSystem.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/FileSystem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/FileSystem.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/FileSystem.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/FileSystem.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/FileSystem.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/core/FileSystem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/FileSystem.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/FileSystem.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/core/FileSystem.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/FileSystem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/core/FileSystem.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/FileSystem.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/core/FileSystem.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/core/FileSystem.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/core/FileSystem.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/FileSystem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/core/FileSystem.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/FileSystem.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/FileSystem.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/core/FileSystem.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/FileSystem.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/FileSystem.cpp.o.requires:
 
@@ -1138,17 +1138,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/FileSystem.c
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/ImageData.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/ImageData.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/ImageData.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/ImageData.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/ImageData.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/ImageData.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/ImageData.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/core/ImageData.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/ImageData.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/ImageData.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/core/ImageData.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/ImageData.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/core/ImageData.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/ImageData.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/core/ImageData.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/core/ImageData.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/core/ImageData.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/ImageData.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/core/ImageData.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/ImageData.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/ImageData.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/core/ImageData.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/ImageData.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/ImageData.cpp.o.requires:
 
@@ -1162,17 +1162,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/ImageData.cp
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/ImageDataOperations.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/ImageDataOperations.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/ImageDataOperations.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/ImageDataOperations.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/ImageDataOperations.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/ImageDataOperations.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/ImageDataOperations.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/core/ImageDataOperations.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/ImageDataOperations.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/ImageDataOperations.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/core/ImageDataOperations.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/ImageDataOperations.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/core/ImageDataOperations.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/ImageDataOperations.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/core/ImageDataOperations.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/core/ImageDataOperations.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/core/ImageDataOperations.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/ImageDataOperations.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/core/ImageDataOperations.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/ImageDataOperations.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/ImageDataOperations.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/core/ImageDataOperations.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/ImageDataOperations.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/ImageDataOperations.cpp.o.requires:
 
@@ -1186,17 +1186,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/ImageDataOpe
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Mem2Native.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Mem2Native.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/Mem2Native.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Mem2Native.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/Mem2Native.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/Mem2Native.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Mem2Native.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/core/Mem2Native.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Mem2Native.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/Mem2Native.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/core/Mem2Native.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Mem2Native.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/core/Mem2Native.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/Mem2Native.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/core/Mem2Native.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/core/Mem2Native.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/core/Mem2Native.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Mem2Native.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/core/Mem2Native.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/Mem2Native.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/Mem2Native.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/core/Mem2Native.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/Mem2Native.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Mem2Native.cpp.o.requires:
 
@@ -1210,17 +1210,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Mem2Native.c
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Mutex.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Mutex.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/Mutex.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Mutex.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/Mutex.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/Mutex.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Mutex.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/core/Mutex.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Mutex.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/Mutex.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/core/Mutex.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Mutex.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/core/Mutex.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/Mutex.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/core/Mutex.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/core/Mutex.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/core/Mutex.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Mutex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/core/Mutex.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/Mutex.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/Mutex.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/core/Mutex.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/Mutex.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Mutex.cpp.o.requires:
 
@@ -1234,17 +1234,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Mutex.cpp.o.
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/NativeTexture.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/NativeTexture.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/NativeTexture.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/NativeTexture.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/NativeTexture.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/NativeTexture.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/NativeTexture.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/core/NativeTexture.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/NativeTexture.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/NativeTexture.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/core/NativeTexture.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/NativeTexture.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/core/NativeTexture.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/NativeTexture.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/core/NativeTexture.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/core/NativeTexture.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/core/NativeTexture.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/NativeTexture.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/core/NativeTexture.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/NativeTexture.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/NativeTexture.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/core/NativeTexture.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/NativeTexture.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/NativeTexture.cpp.o.requires:
 
@@ -1258,17 +1258,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/NativeTextur
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Object.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Object.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/Object.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Object.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/Object.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/Object.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Object.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/core/Object.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Object.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/Object.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/core/Object.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Object.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/core/Object.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/Object.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/core/Object.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/core/Object.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/core/Object.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Object.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/core/Object.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/Object.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/Object.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/core/Object.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/Object.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Object.cpp.o.requires:
 
@@ -1282,17 +1282,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Object.cpp.o
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Renderer.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Renderer.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/Renderer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Renderer.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/Renderer.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/Renderer.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Renderer.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/core/Renderer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Renderer.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/Renderer.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/core/Renderer.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Renderer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/core/Renderer.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/Renderer.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/core/Renderer.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/core/Renderer.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/core/Renderer.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Renderer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/core/Renderer.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/Renderer.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/Renderer.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/core/Renderer.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/Renderer.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Renderer.cpp.o.requires:
 
@@ -1306,17 +1306,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Renderer.cpp
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Restorable.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Restorable.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/Restorable.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Restorable.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/Restorable.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/Restorable.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Restorable.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/core/Restorable.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Restorable.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/Restorable.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/core/Restorable.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Restorable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/core/Restorable.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/Restorable.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/core/Restorable.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/core/Restorable.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/core/Restorable.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Restorable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/core/Restorable.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/Restorable.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/Restorable.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/core/Restorable.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/Restorable.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Restorable.cpp.o.requires:
 
@@ -1330,17 +1330,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Restorable.c
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/STDFileSystem.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/STDFileSystem.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/STDFileSystem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/STDFileSystem.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/STDFileSystem.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/STDFileSystem.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/STDFileSystem.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/core/STDFileSystem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/STDFileSystem.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/STDFileSystem.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/core/STDFileSystem.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/STDFileSystem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/core/STDFileSystem.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/STDFileSystem.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/core/STDFileSystem.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/core/STDFileSystem.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/core/STDFileSystem.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/STDFileSystem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/core/STDFileSystem.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/STDFileSystem.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/STDFileSystem.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/core/STDFileSystem.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/STDFileSystem.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/STDFileSystem.cpp.o.requires:
 
@@ -1354,17 +1354,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/STDFileSyste
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Texture.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Texture.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/Texture.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Texture.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/Texture.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/Texture.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Texture.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/core/Texture.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Texture.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/Texture.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/core/Texture.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Texture.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/core/Texture.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/Texture.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/core/Texture.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/core/Texture.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/core/Texture.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Texture.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/core/Texture.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/Texture.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/Texture.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/core/Texture.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/Texture.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Texture.cpp.o.requires:
 
@@ -1378,17 +1378,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Texture.cpp.
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/ThreadDispatcher.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/ThreadDispatcher.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/ThreadDispatcher.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/ThreadDispatcher.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/ThreadDispatcher.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/ThreadDispatcher.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/ThreadDispatcher.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/core/ThreadDispatcher.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/ThreadDispatcher.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/ThreadDispatcher.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/core/ThreadDispatcher.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/ThreadDispatcher.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/core/ThreadDispatcher.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/ThreadDispatcher.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/core/ThreadDispatcher.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/core/ThreadDispatcher.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/core/ThreadDispatcher.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/ThreadDispatcher.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/core/ThreadDispatcher.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/ThreadDispatcher.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/ThreadDispatcher.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/core/ThreadDispatcher.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/ThreadDispatcher.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/ThreadDispatcher.cpp.o.requires:
 
@@ -1402,17 +1402,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/ThreadDispat
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/UberShaderProgram.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/UberShaderProgram.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/UberShaderProgram.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/UberShaderProgram.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/UberShaderProgram.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/UberShaderProgram.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/UberShaderProgram.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/core/UberShaderProgram.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/UberShaderProgram.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/UberShaderProgram.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/core/UberShaderProgram.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/UberShaderProgram.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/core/UberShaderProgram.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/UberShaderProgram.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/core/UberShaderProgram.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/core/UberShaderProgram.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/core/UberShaderProgram.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/UberShaderProgram.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/core/UberShaderProgram.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/UberShaderProgram.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/UberShaderProgram.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/core/UberShaderProgram.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/UberShaderProgram.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/UberShaderProgram.cpp.o.requires:
 
@@ -1426,17 +1426,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/UberShaderPr
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/VideoDriver.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/VideoDriver.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/VideoDriver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/VideoDriver.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/VideoDriver.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/VideoDriver.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/VideoDriver.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/core/VideoDriver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/VideoDriver.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/VideoDriver.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/core/VideoDriver.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/VideoDriver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/core/VideoDriver.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/VideoDriver.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/core/VideoDriver.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/core/VideoDriver.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/core/VideoDriver.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/VideoDriver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/core/VideoDriver.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/VideoDriver.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/VideoDriver.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/core/VideoDriver.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/VideoDriver.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/VideoDriver.cpp.o.requires:
 
@@ -1450,17 +1450,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/VideoDriver.
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/ZipFileSystem.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/ZipFileSystem.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/ZipFileSystem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/ZipFileSystem.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/ZipFileSystem.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/ZipFileSystem.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/ZipFileSystem.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/core/ZipFileSystem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/ZipFileSystem.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/ZipFileSystem.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/core/ZipFileSystem.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/ZipFileSystem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/core/ZipFileSystem.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/ZipFileSystem.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/core/ZipFileSystem.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/core/ZipFileSystem.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/core/ZipFileSystem.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/ZipFileSystem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/core/ZipFileSystem.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/ZipFileSystem.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/ZipFileSystem.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/core/ZipFileSystem.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/ZipFileSystem.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/ZipFileSystem.cpp.o.requires:
 
@@ -1474,17 +1474,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/ZipFileSyste
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/file.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/file.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/file.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/file.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/file.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/file.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/file.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/core/file.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/file.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/file.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/core/file.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/file.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/core/file.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/file.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/core/file.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/core/file.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/core/file.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/file.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/core/file.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/file.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/file.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/core/file.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/file.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/file.cpp.o.requires:
 
@@ -1498,17 +1498,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/file.cpp.o.p
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/log.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/log.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/log.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/log.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/log.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/log.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/log.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/core/log.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/log.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/log.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/core/log.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/log.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/core/log.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/log.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/core/log.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/core/log.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/core/log.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/log.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/core/log.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/log.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/log.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/core/log.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/log.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/log.cpp.o.requires:
 
@@ -1522,17 +1522,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/log.cpp.o.pr
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/oxygine.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/oxygine.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/oxygine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/oxygine.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/oxygine.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/oxygine.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/oxygine.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/core/oxygine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/oxygine.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/oxygine.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/core/oxygine.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/oxygine.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/core/oxygine.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/oxygine.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/core/oxygine.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/core/oxygine.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/core/oxygine.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/oxygine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/core/oxygine.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/oxygine.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/oxygine.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/core/oxygine.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/oxygine.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/oxygine.cpp.o.requires:
 
@@ -1546,17 +1546,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/oxygine.cpp.
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/system_data.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/system_data.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/system_data.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/system_data.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/system_data.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/system_data.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/system_data.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/core/system_data.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/system_data.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/system_data.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/core/system_data.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/system_data.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/core/system_data.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/system_data.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/core/system_data.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/core/system_data.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/core/system_data.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/system_data.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/core/system_data.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/system_data.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/system_data.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/core/system_data.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/system_data.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/system_data.cpp.o.requires:
 
@@ -1570,17 +1570,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/system_data.
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/NativeTextureGLES.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/NativeTextureGLES.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/gl/NativeTextureGLES.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/NativeTextureGLES.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/NativeTextureGLES.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/gl/NativeTextureGLES.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/NativeTextureGLES.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/core/gl/NativeTextureGLES.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/NativeTextureGLES.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/NativeTextureGLES.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/core/gl/NativeTextureGLES.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/NativeTextureGLES.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/NativeTextureGLES.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/gl/NativeTextureGLES.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/NativeTextureGLES.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/core/gl/NativeTextureGLES.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/NativeTextureGLES.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/NativeTextureGLES.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/NativeTextureGLES.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/gl/NativeTextureGLES.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/NativeTextureGLES.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/core/gl/NativeTextureGLES.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/NativeTextureGLES.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/NativeTextureGLES.cpp.o.requires:
 
@@ -1594,17 +1594,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/NativeTex
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/ShaderProgramGL.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/ShaderProgramGL.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/gl/ShaderProgramGL.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/ShaderProgramGL.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/ShaderProgramGL.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/gl/ShaderProgramGL.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/ShaderProgramGL.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/core/gl/ShaderProgramGL.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/ShaderProgramGL.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/ShaderProgramGL.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/core/gl/ShaderProgramGL.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/ShaderProgramGL.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/ShaderProgramGL.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/gl/ShaderProgramGL.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/ShaderProgramGL.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/core/gl/ShaderProgramGL.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/ShaderProgramGL.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/ShaderProgramGL.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/ShaderProgramGL.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/gl/ShaderProgramGL.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/ShaderProgramGL.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/core/gl/ShaderProgramGL.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/ShaderProgramGL.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/ShaderProgramGL.cpp.o.requires:
 
@@ -1618,17 +1618,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/ShaderPro
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/VertexDeclarationGL.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/VertexDeclarationGL.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/gl/VertexDeclarationGL.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/VertexDeclarationGL.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/VertexDeclarationGL.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/gl/VertexDeclarationGL.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/VertexDeclarationGL.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/core/gl/VertexDeclarationGL.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/VertexDeclarationGL.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/VertexDeclarationGL.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/core/gl/VertexDeclarationGL.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/VertexDeclarationGL.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/VertexDeclarationGL.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/gl/VertexDeclarationGL.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/VertexDeclarationGL.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/core/gl/VertexDeclarationGL.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/VertexDeclarationGL.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/VertexDeclarationGL.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/VertexDeclarationGL.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/gl/VertexDeclarationGL.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/VertexDeclarationGL.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/core/gl/VertexDeclarationGL.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/VertexDeclarationGL.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/VertexDeclarationGL.cpp.o.requires:
 
@@ -1642,17 +1642,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/VertexDec
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/VideoDriverGL.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/VideoDriverGL.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/gl/VideoDriverGL.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/VideoDriverGL.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/VideoDriverGL.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/gl/VideoDriverGL.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/VideoDriverGL.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/core/gl/VideoDriverGL.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/VideoDriverGL.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/VideoDriverGL.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/core/gl/VideoDriverGL.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/VideoDriverGL.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/VideoDriverGL.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/gl/VideoDriverGL.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/VideoDriverGL.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/core/gl/VideoDriverGL.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/VideoDriverGL.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/VideoDriverGL.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/VideoDriverGL.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/gl/VideoDriverGL.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/VideoDriverGL.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/core/gl/VideoDriverGL.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/VideoDriverGL.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/VideoDriverGL.cpp.o.requires:
 
@@ -1666,17 +1666,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/VideoDriv
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/VideoDriverGLES20.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/VideoDriverGLES20.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/gl/VideoDriverGLES20.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/VideoDriverGLES20.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/VideoDriverGLES20.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/gl/VideoDriverGLES20.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/VideoDriverGLES20.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/core/gl/VideoDriverGLES20.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/VideoDriverGLES20.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/VideoDriverGLES20.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/core/gl/VideoDriverGLES20.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/VideoDriverGLES20.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/VideoDriverGLES20.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/gl/VideoDriverGLES20.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/VideoDriverGLES20.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/core/gl/VideoDriverGLES20.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/VideoDriverGLES20.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/VideoDriverGLES20.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/VideoDriverGLES20.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/gl/VideoDriverGLES20.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/VideoDriverGLES20.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/core/gl/VideoDriverGLES20.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/VideoDriverGLES20.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/VideoDriverGLES20.cpp.o.requires:
 
@@ -1690,17 +1690,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/VideoDriv
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/oxgl.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/oxgl.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/gl/oxgl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/oxgl.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/oxgl.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/gl/oxgl.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/oxgl.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/core/gl/oxgl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/oxgl.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/oxgl.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/core/gl/oxgl.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/oxgl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/oxgl.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/gl/oxgl.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/oxgl.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/core/gl/oxgl.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/oxgl.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/oxgl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/oxgl.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/core/gl/oxgl.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/oxgl.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/core/gl/oxgl.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/oxgl.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/oxgl.cpp.o.requires:
 
@@ -1714,17 +1714,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/oxgl.cpp.
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/DeveloperMenu.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/DeveloperMenu.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/dev_tools/DeveloperMenu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/DeveloperMenu.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/DeveloperMenu.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/dev_tools/DeveloperMenu.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/DeveloperMenu.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/dev_tools/DeveloperMenu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/DeveloperMenu.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/DeveloperMenu.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/dev_tools/DeveloperMenu.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/DeveloperMenu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/DeveloperMenu.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/dev_tools/DeveloperMenu.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/DeveloperMenu.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/dev_tools/DeveloperMenu.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/DeveloperMenu.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/DeveloperMenu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/DeveloperMenu.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/dev_tools/DeveloperMenu.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/DeveloperMenu.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/dev_tools/DeveloperMenu.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/DeveloperMenu.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/DeveloperMenu.cpp.o.requires:
 
@@ -1738,17 +1738,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/Develop
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TexturesInspector.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TexturesInspector.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/dev_tools/TexturesInspector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TexturesInspector.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TexturesInspector.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/dev_tools/TexturesInspector.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TexturesInspector.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/dev_tools/TexturesInspector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TexturesInspector.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TexturesInspector.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/dev_tools/TexturesInspector.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TexturesInspector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TexturesInspector.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/dev_tools/TexturesInspector.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TexturesInspector.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/dev_tools/TexturesInspector.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TexturesInspector.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TexturesInspector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TexturesInspector.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/dev_tools/TexturesInspector.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TexturesInspector.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/dev_tools/TexturesInspector.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TexturesInspector.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TexturesInspector.cpp.o.requires:
 
@@ -1762,17 +1762,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/Texture
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspector.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspector.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/dev_tools/TreeInspector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspector.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspector.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/dev_tools/TreeInspector.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspector.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/dev_tools/TreeInspector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspector.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspector.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/dev_tools/TreeInspector.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspector.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/dev_tools/TreeInspector.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspector.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/dev_tools/TreeInspector.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspector.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspector.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/dev_tools/TreeInspector.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspector.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/dev_tools/TreeInspector.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspector.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspector.cpp.o.requires:
 
@@ -1786,17 +1786,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeIns
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspectorLine.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspectorLine.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/dev_tools/TreeInspectorLine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspectorLine.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspectorLine.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/dev_tools/TreeInspectorLine.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspectorLine.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/dev_tools/TreeInspectorLine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspectorLine.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspectorLine.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/dev_tools/TreeInspectorLine.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspectorLine.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspectorLine.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/dev_tools/TreeInspectorLine.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspectorLine.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/dev_tools/TreeInspectorLine.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspectorLine.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspectorLine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspectorLine.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/dev_tools/TreeInspectorLine.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspectorLine.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/dev_tools/TreeInspectorLine.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspectorLine.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspectorLine.cpp.o.requires:
 
@@ -1810,17 +1810,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeIns
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspectorPage.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspectorPage.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/dev_tools/TreeInspectorPage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspectorPage.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspectorPage.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/dev_tools/TreeInspectorPage.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspectorPage.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/dev_tools/TreeInspectorPage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspectorPage.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspectorPage.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/dev_tools/TreeInspectorPage.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspectorPage.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspectorPage.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/dev_tools/TreeInspectorPage.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspectorPage.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/dev_tools/TreeInspectorPage.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspectorPage.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspectorPage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspectorPage.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/dev_tools/TreeInspectorPage.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspectorPage.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/dev_tools/TreeInspectorPage.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspectorPage.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspectorPage.cpp.o.requires:
 
@@ -1834,17 +1834,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeIns
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspectorPreview.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspectorPreview.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/dev_tools/TreeInspectorPreview.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspectorPreview.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspectorPreview.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/dev_tools/TreeInspectorPreview.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspectorPreview.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/dev_tools/TreeInspectorPreview.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspectorPreview.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspectorPreview.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/dev_tools/TreeInspectorPreview.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspectorPreview.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspectorPreview.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/dev_tools/TreeInspectorPreview.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspectorPreview.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/dev_tools/TreeInspectorPreview.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspectorPreview.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspectorPreview.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspectorPreview.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/dev_tools/TreeInspectorPreview.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspectorPreview.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/dev_tools/TreeInspectorPreview.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspectorPreview.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspectorPreview.cpp.o.requires:
 
@@ -1858,17 +1858,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeIns
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/math/AffineTransform.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/math/AffineTransform.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/math/AffineTransform.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/math/AffineTransform.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/math/AffineTransform.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/math/AffineTransform.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/math/AffineTransform.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/math/AffineTransform.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/math/AffineTransform.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/math/AffineTransform.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/math/AffineTransform.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/math/AffineTransform.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/math/AffineTransform.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/math/AffineTransform.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/math/AffineTransform.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/math/AffineTransform.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/math/AffineTransform.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/math/AffineTransform.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/math/AffineTransform.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/math/AffineTransform.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/math/AffineTransform.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/math/AffineTransform.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/math/AffineTransform.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/math/AffineTransform.cpp.o.requires:
 
@@ -1882,17 +1882,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/math/AffineTransf
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/math/Color.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/math/Color.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/math/Color.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/math/Color.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/math/Color.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/math/Color.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/math/Color.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/math/Color.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/math/Color.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/math/Color.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/math/Color.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/math/Color.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/math/Color.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/math/Color.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/math/Color.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/math/Color.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/math/Color.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/math/Color.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/math/Color.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/math/Color.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/math/Color.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/math/Color.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/math/Color.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/math/Color.cpp.o.requires:
 
@@ -1906,17 +1906,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/math/Color.cpp.o.
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/pugixml/pugixml.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/pugixml/pugixml.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/pugixml/pugixml.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/pugixml/pugixml.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/pugixml/pugixml.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/pugixml/pugixml.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/pugixml/pugixml.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/pugixml/pugixml.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/pugixml/pugixml.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/pugixml/pugixml.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/pugixml/pugixml.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/pugixml/pugixml.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/pugixml/pugixml.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/pugixml/pugixml.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/pugixml/pugixml.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/pugixml/pugixml.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/pugixml/pugixml.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/pugixml/pugixml.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/pugixml/pugixml.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/pugixml/pugixml.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/pugixml/pugixml.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/pugixml/pugixml.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/pugixml/pugixml.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/pugixml/pugixml.cpp.o.requires:
 
@@ -1930,17 +1930,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/pugixml/pugixml.c
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/json/jsoncpp.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/json/jsoncpp.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/json/jsoncpp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/json/jsoncpp.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/json/jsoncpp.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/json/jsoncpp.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/json/jsoncpp.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/json/jsoncpp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/json/jsoncpp.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/json/jsoncpp.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/json/jsoncpp.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/json/jsoncpp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/json/jsoncpp.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/json/jsoncpp.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/json/jsoncpp.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/json/jsoncpp.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/json/jsoncpp.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/json/jsoncpp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/json/jsoncpp.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/json/jsoncpp.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/json/jsoncpp.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/json/jsoncpp.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/json/jsoncpp.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/json/jsoncpp.cpp.o.requires:
 
@@ -1954,17 +1954,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/json/jsoncpp.cpp.
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/CreateResourceContext.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/CreateResourceContext.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/res/CreateResourceContext.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/CreateResourceContext.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/res/CreateResourceContext.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/res/CreateResourceContext.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/CreateResourceContext.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/res/CreateResourceContext.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/CreateResourceContext.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/res/CreateResourceContext.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/res/CreateResourceContext.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/CreateResourceContext.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/res/CreateResourceContext.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/res/CreateResourceContext.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/res/CreateResourceContext.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/res/CreateResourceContext.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/res/CreateResourceContext.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/CreateResourceContext.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/res/CreateResourceContext.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/res/CreateResourceContext.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/res/CreateResourceContext.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/res/CreateResourceContext.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/res/CreateResourceContext.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/CreateResourceContext.cpp.o.requires:
 
@@ -1978,17 +1978,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/CreateResourc
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAnim.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAnim.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/res/ResAnim.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAnim.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAnim.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/res/ResAnim.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAnim.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/res/ResAnim.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAnim.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAnim.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/res/ResAnim.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAnim.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAnim.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/res/ResAnim.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAnim.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/res/ResAnim.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAnim.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAnim.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAnim.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/res/ResAnim.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAnim.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/res/ResAnim.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAnim.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAnim.cpp.o.requires:
 
@@ -2002,17 +2002,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAnim.cpp.o
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAtlas.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAtlas.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/res/ResAtlas.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAtlas.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAtlas.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/res/ResAtlas.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAtlas.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/res/ResAtlas.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAtlas.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAtlas.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/res/ResAtlas.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAtlas.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAtlas.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/res/ResAtlas.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAtlas.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/res/ResAtlas.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAtlas.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAtlas.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAtlas.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/res/ResAtlas.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAtlas.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/res/ResAtlas.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAtlas.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAtlas.cpp.o.requires:
 
@@ -2026,17 +2026,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAtlas.cpp.
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAtlasGeneric.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAtlasGeneric.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/res/ResAtlasGeneric.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAtlasGeneric.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAtlasGeneric.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/res/ResAtlasGeneric.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAtlasGeneric.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/res/ResAtlasGeneric.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAtlasGeneric.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAtlasGeneric.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/res/ResAtlasGeneric.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAtlasGeneric.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAtlasGeneric.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/res/ResAtlasGeneric.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAtlasGeneric.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/res/ResAtlasGeneric.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAtlasGeneric.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAtlasGeneric.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAtlasGeneric.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/res/ResAtlasGeneric.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAtlasGeneric.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/res/ResAtlasGeneric.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAtlasGeneric.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAtlasGeneric.cpp.o.requires:
 
@@ -2050,17 +2050,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAtlasGener
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAtlasPrebuilt.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAtlasPrebuilt.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/res/ResAtlasPrebuilt.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAtlasPrebuilt.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAtlasPrebuilt.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/res/ResAtlasPrebuilt.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAtlasPrebuilt.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/res/ResAtlasPrebuilt.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAtlasPrebuilt.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAtlasPrebuilt.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/res/ResAtlasPrebuilt.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAtlasPrebuilt.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAtlasPrebuilt.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/res/ResAtlasPrebuilt.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAtlasPrebuilt.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/res/ResAtlasPrebuilt.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAtlasPrebuilt.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAtlasPrebuilt.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAtlasPrebuilt.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/res/ResAtlasPrebuilt.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAtlasPrebuilt.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/res/ResAtlasPrebuilt.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAtlasPrebuilt.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAtlasPrebuilt.cpp.o.requires:
 
@@ -2074,17 +2074,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAtlasPrebu
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResBuffer.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResBuffer.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/res/ResBuffer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResBuffer.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResBuffer.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/res/ResBuffer.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResBuffer.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/res/ResBuffer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResBuffer.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResBuffer.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/res/ResBuffer.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResBuffer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResBuffer.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/res/ResBuffer.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResBuffer.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/res/ResBuffer.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResBuffer.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResBuffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResBuffer.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/res/ResBuffer.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResBuffer.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/res/ResBuffer.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResBuffer.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResBuffer.cpp.o.requires:
 
@@ -2098,17 +2098,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResBuffer.cpp
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResFont.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResFont.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/res/ResFont.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResFont.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResFont.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/res/ResFont.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResFont.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/res/ResFont.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResFont.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResFont.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/res/ResFont.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResFont.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResFont.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/res/ResFont.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResFont.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/res/ResFont.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResFont.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResFont.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResFont.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/res/ResFont.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResFont.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/res/ResFont.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResFont.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResFont.cpp.o.requires:
 
@@ -2122,17 +2122,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResFont.cpp.o
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResFontBM.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResFontBM.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/res/ResFontBM.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResFontBM.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResFontBM.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/res/ResFontBM.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResFontBM.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/res/ResFontBM.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResFontBM.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResFontBM.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/res/ResFontBM.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResFontBM.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResFontBM.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/res/ResFontBM.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResFontBM.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/res/ResFontBM.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResFontBM.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResFontBM.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResFontBM.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/res/ResFontBM.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResFontBM.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/res/ResFontBM.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResFontBM.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResFontBM.cpp.o.requires:
 
@@ -2146,17 +2146,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResFontBM.cpp
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResStarlingAtlas.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResStarlingAtlas.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/res/ResStarlingAtlas.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResStarlingAtlas.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResStarlingAtlas.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/res/ResStarlingAtlas.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResStarlingAtlas.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/res/ResStarlingAtlas.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResStarlingAtlas.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResStarlingAtlas.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/res/ResStarlingAtlas.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResStarlingAtlas.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResStarlingAtlas.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/res/ResStarlingAtlas.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResStarlingAtlas.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/res/ResStarlingAtlas.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResStarlingAtlas.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResStarlingAtlas.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResStarlingAtlas.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/res/ResStarlingAtlas.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResStarlingAtlas.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/res/ResStarlingAtlas.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResStarlingAtlas.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResStarlingAtlas.cpp.o.requires:
 
@@ -2170,17 +2170,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResStarlingAt
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/Resource.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/Resource.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/res/Resource.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/Resource.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/res/Resource.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/res/Resource.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/Resource.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/res/Resource.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/Resource.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/res/Resource.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/res/Resource.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/Resource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/res/Resource.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/res/Resource.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/res/Resource.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/res/Resource.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/res/Resource.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/Resource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/res/Resource.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/res/Resource.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/res/Resource.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/res/Resource.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/res/Resource.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/Resource.cpp.o.requires:
 
@@ -2194,17 +2194,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/Resource.cpp.
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/Resources.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/Resources.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/res/Resources.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/Resources.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/res/Resources.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/res/Resources.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/Resources.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/res/Resources.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/Resources.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/res/Resources.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/res/Resources.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/Resources.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/res/Resources.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/res/Resources.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/res/Resources.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/res/Resources.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/res/Resources.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/Resources.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/res/Resources.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/res/Resources.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/res/Resources.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/res/Resources.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/res/Resources.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/Resources.cpp.o.requires:
 
@@ -2218,17 +2218,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/Resources.cpp
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/SingleResAnim.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/SingleResAnim.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/res/SingleResAnim.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/SingleResAnim.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/res/SingleResAnim.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/res/SingleResAnim.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/SingleResAnim.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/res/SingleResAnim.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/SingleResAnim.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/res/SingleResAnim.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/res/SingleResAnim.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/SingleResAnim.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/res/SingleResAnim.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/res/SingleResAnim.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/res/SingleResAnim.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/res/SingleResAnim.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/res/SingleResAnim.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/SingleResAnim.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/res/SingleResAnim.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/res/SingleResAnim.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/res/SingleResAnim.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/res/SingleResAnim.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/res/SingleResAnim.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/SingleResAnim.cpp.o.requires:
 
@@ -2242,17 +2242,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/SingleResAnim
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/text_utils/Aligner.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/text_utils/Aligner.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/text_utils/Aligner.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/text_utils/Aligner.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/text_utils/Aligner.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/text_utils/Aligner.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/text_utils/Aligner.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/text_utils/Aligner.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/text_utils/Aligner.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/text_utils/Aligner.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/text_utils/Aligner.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/text_utils/Aligner.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/text_utils/Aligner.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/text_utils/Aligner.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/text_utils/Aligner.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/text_utils/Aligner.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/text_utils/Aligner.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/text_utils/Aligner.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/text_utils/Aligner.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/text_utils/Aligner.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/text_utils/Aligner.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/text_utils/Aligner.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/text_utils/Aligner.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/text_utils/Aligner.cpp.o.requires:
 
@@ -2266,17 +2266,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/text_utils/Aligne
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/text_utils/Node.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/text_utils/Node.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/text_utils/Node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/text_utils/Node.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/text_utils/Node.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/text_utils/Node.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/text_utils/Node.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/text_utils/Node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/text_utils/Node.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/text_utils/Node.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/text_utils/Node.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/text_utils/Node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/text_utils/Node.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/text_utils/Node.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/text_utils/Node.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/text_utils/Node.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/text_utils/Node.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/text_utils/Node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/text_utils/Node.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/text_utils/Node.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/text_utils/Node.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/text_utils/Node.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/text_utils/Node.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/text_utils/Node.cpp.o.requires:
 
@@ -2290,17 +2290,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/text_utils/Node.c
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/text_utils/TextBuilder.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/text_utils/TextBuilder.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/text_utils/TextBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/text_utils/TextBuilder.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/text_utils/TextBuilder.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/text_utils/TextBuilder.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/text_utils/TextBuilder.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/text_utils/TextBuilder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/text_utils/TextBuilder.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/text_utils/TextBuilder.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/text_utils/TextBuilder.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/text_utils/TextBuilder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/text_utils/TextBuilder.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/text_utils/TextBuilder.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/text_utils/TextBuilder.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/text_utils/TextBuilder.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/text_utils/TextBuilder.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/text_utils/TextBuilder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/text_utils/TextBuilder.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/text_utils/TextBuilder.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/text_utils/TextBuilder.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/text_utils/TextBuilder.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/text_utils/TextBuilder.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/text_utils/TextBuilder.cpp.o.requires:
 
@@ -2314,17 +2314,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/text_utils/TextBu
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/utils/AtlasTool.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/utils/AtlasTool.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/utils/AtlasTool.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/utils/AtlasTool.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/utils/AtlasTool.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/utils/AtlasTool.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/utils/AtlasTool.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/utils/AtlasTool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/utils/AtlasTool.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/utils/AtlasTool.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/utils/AtlasTool.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/utils/AtlasTool.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/utils/AtlasTool.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/utils/AtlasTool.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/utils/AtlasTool.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/utils/AtlasTool.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/utils/AtlasTool.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/utils/AtlasTool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/utils/AtlasTool.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/utils/AtlasTool.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/utils/AtlasTool.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/utils/AtlasTool.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/utils/AtlasTool.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/utils/AtlasTool.cpp.o.requires:
 
@@ -2338,17 +2338,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/utils/AtlasTool.c
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/utils/ImageUtils.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/utils/ImageUtils.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/utils/ImageUtils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/utils/ImageUtils.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/utils/ImageUtils.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/utils/ImageUtils.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/utils/ImageUtils.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/utils/ImageUtils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/utils/ImageUtils.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/utils/ImageUtils.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/utils/ImageUtils.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/utils/ImageUtils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/utils/ImageUtils.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/utils/ImageUtils.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/utils/ImageUtils.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/utils/ImageUtils.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/utils/ImageUtils.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/utils/ImageUtils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/utils/ImageUtils.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/utils/ImageUtils.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/utils/ImageUtils.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/utils/ImageUtils.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/utils/ImageUtils.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/utils/ImageUtils.cpp.o.requires:
 
@@ -2362,17 +2362,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/utils/ImageUtils.
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/utils/stringUtils.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/utils/stringUtils.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/utils/stringUtils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/utils/stringUtils.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/utils/stringUtils.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/utils/stringUtils.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/utils/stringUtils.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/utils/stringUtils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/utils/stringUtils.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/utils/stringUtils.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/utils/stringUtils.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/utils/stringUtils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/utils/stringUtils.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/utils/stringUtils.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/utils/stringUtils.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/utils/stringUtils.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/utils/stringUtils.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/utils/stringUtils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/utils/stringUtils.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/utils/stringUtils.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/utils/stringUtils.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/utils/stringUtils.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/utils/stringUtils.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/utils/stringUtils.cpp.o.requires:
 
@@ -2386,17 +2386,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/utils/stringUtils
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/utils/cdecode.c.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/utils/cdecode.c.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/utils/cdecode.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/utils/cdecode.c.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/utils/cdecode.c.o   -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/utils/cdecode.c
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/utils/cdecode.c.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/utils/cdecode.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/utils/cdecode.c.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/utils/cdecode.c.o   -c /home/abrdej/libraries/oxygine-framework/oxygine/src/utils/cdecode.c
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/utils/cdecode.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/oxygine-framework.dir/oxygine/src/utils/cdecode.c.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/utils/cdecode.c > CMakeFiles/oxygine-framework.dir/oxygine/src/utils/cdecode.c.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/utils/cdecode.c > CMakeFiles/oxygine-framework.dir/oxygine/src/utils/cdecode.c.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/utils/cdecode.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/utils/cdecode.c.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/utils/cdecode.c -o CMakeFiles/oxygine-framework.dir/oxygine/src/utils/cdecode.c.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/utils/cdecode.c -o CMakeFiles/oxygine-framework.dir/oxygine/src/utils/cdecode.c.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/utils/cdecode.c.o.requires:
 
@@ -2410,17 +2410,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/utils/cdecode.c.o
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/winnie_alloc/system_alloc.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/winnie_alloc/system_alloc.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/winnie_alloc/system_alloc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/winnie_alloc/system_alloc.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/winnie_alloc/system_alloc.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/winnie_alloc/system_alloc.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/winnie_alloc/system_alloc.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/winnie_alloc/system_alloc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/winnie_alloc/system_alloc.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/winnie_alloc/system_alloc.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/winnie_alloc/system_alloc.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/winnie_alloc/system_alloc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/winnie_alloc/system_alloc.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/winnie_alloc/system_alloc.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/winnie_alloc/system_alloc.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/winnie_alloc/system_alloc.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/winnie_alloc/system_alloc.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/winnie_alloc/system_alloc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/winnie_alloc/system_alloc.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/winnie_alloc/system_alloc.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/winnie_alloc/system_alloc.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/winnie_alloc/system_alloc.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/winnie_alloc/system_alloc.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/winnie_alloc/system_alloc.cpp.o.requires:
 
@@ -2434,17 +2434,17 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/winnie_alloc/syst
 
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/winnie_alloc/winnie_alloc.cpp.o: oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make
-oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/winnie_alloc/winnie_alloc.cpp.o: /home/abrdej/Libraries/oxygine-framework/oxygine/src/winnie_alloc/winnie_alloc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/winnie_alloc/winnie_alloc.cpp.o"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/winnie_alloc/winnie_alloc.cpp.o -c /home/abrdej/Libraries/oxygine-framework/oxygine/src/winnie_alloc/winnie_alloc.cpp
+oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/winnie_alloc/winnie_alloc.cpp.o: /home/abrdej/libraries/oxygine-framework/oxygine/src/winnie_alloc/winnie_alloc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/winnie_alloc/winnie_alloc.cpp.o"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxygine-framework.dir/oxygine/src/winnie_alloc/winnie_alloc.cpp.o -c /home/abrdej/libraries/oxygine-framework/oxygine/src/winnie_alloc/winnie_alloc.cpp
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/winnie_alloc/winnie_alloc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxygine-framework.dir/oxygine/src/winnie_alloc/winnie_alloc.cpp.i"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/Libraries/oxygine-framework/oxygine/src/winnie_alloc/winnie_alloc.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/winnie_alloc/winnie_alloc.cpp.i
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abrdej/libraries/oxygine-framework/oxygine/src/winnie_alloc/winnie_alloc.cpp > CMakeFiles/oxygine-framework.dir/oxygine/src/winnie_alloc/winnie_alloc.cpp.i
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/winnie_alloc/winnie_alloc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxygine-framework.dir/oxygine/src/winnie_alloc/winnie_alloc.cpp.s"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/Libraries/oxygine-framework/oxygine/src/winnie_alloc/winnie_alloc.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/winnie_alloc/winnie_alloc.cpp.s
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abrdej/libraries/oxygine-framework/oxygine/src/winnie_alloc/winnie_alloc.cpp -o CMakeFiles/oxygine-framework.dir/oxygine/src/winnie_alloc/winnie_alloc.cpp.s
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/winnie_alloc/winnie_alloc.cpp.o.requires:
 
@@ -2665,9 +2665,9 @@ oxygine-framework/liboxygine-framework.a: oxygine-framework/CMakeFiles/oxygine-f
 oxygine-framework/liboxygine-framework.a: oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/winnie_alloc/winnie_alloc.cpp.o
 oxygine-framework/liboxygine-framework.a: oxygine-framework/CMakeFiles/oxygine-framework.dir/build.make
 oxygine-framework/liboxygine-framework.a: oxygine-framework/CMakeFiles/oxygine-framework.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/abrdej/pigeon-war-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Linking CXX static library liboxygine-framework.a"
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && $(CMAKE_COMMAND) -P CMakeFiles/oxygine-framework.dir/cmake_clean_target.cmake
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/oxygine-framework.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/abrdej/pigeonwar-client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Linking CXX static library liboxygine-framework.a"
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && $(CMAKE_COMMAND) -P CMakeFiles/oxygine-framework.dir/cmake_clean_target.cmake
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/oxygine-framework.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 oxygine-framework/CMakeFiles/oxygine-framework.dir/build: oxygine-framework/liboxygine-framework.a
@@ -2778,10 +2778,10 @@ oxygine-framework/CMakeFiles/oxygine-framework.dir/requires: oxygine-framework/C
 .PHONY : oxygine-framework/CMakeFiles/oxygine-framework.dir/requires
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/clean:
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework && $(CMAKE_COMMAND) -P CMakeFiles/oxygine-framework.dir/cmake_clean.cmake
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework && $(CMAKE_COMMAND) -P CMakeFiles/oxygine-framework.dir/cmake_clean.cmake
 .PHONY : oxygine-framework/CMakeFiles/oxygine-framework.dir/clean
 
 oxygine-framework/CMakeFiles/oxygine-framework.dir/depend:
-	cd /home/abrdej/pigeon-war-client/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/abrdej/pigeon-war-client /home/abrdej/Libraries/oxygine-framework /home/abrdej/pigeon-war-client/cmake-build-debug /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework /home/abrdej/pigeon-war-client/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/abrdej/pigeonwar-client/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/abrdej/pigeonwar-client /home/abrdej/libraries/oxygine-framework /home/abrdej/pigeonwar-client/cmake-build-debug /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework /home/abrdej/pigeonwar-client/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : oxygine-framework/CMakeFiles/oxygine-framework.dir/depend
 
