@@ -117,6 +117,9 @@
 		<image file="destruction_2.png" />
 		<image file="destruction_3.png" />
 		<image file="saurions_web.png" />
+		<image file="saurian.png" />
+		<image file="saurian_web.png" />
+		<image file="tongue_of_fire.png" />
 		<image file="border.png" />
 		<image file="border2.png" />
 		<image file="arrow_anim.png" />
@@ -144,6 +147,7 @@
 		<image file="repair.png" />
 		<image file="eye.png" />
 		<image file="transmission.png" />
+		<image file="wolf.png" />
 	</atlas>
 
 	<font file="main.fnt" />

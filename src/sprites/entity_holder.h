@@ -16,10 +16,12 @@ struct entity_holder {
     oxygine::spColorRectSprite health_background;
     oxygine::Point pos;
     std::int32_t health;
+    std::int32_t power;
 
     entity_holder(std::uint32_t entity_id,
                   const std::string& entity_name,
                   std::int32_t entity_health,
+                  std::int32_t entity_power,
                   oxygine::Point pos);
 
     void remove();
@@ -28,6 +30,8 @@ struct entity_holder {
     void set_pos(std::uint32_t index);
     void set_health(std::int32_t health);
     void change_health(std::int32_t amount);
+    void set_power(std::int32_t power);
+    void change_power(std::int32_t amount);
 
     void change_bitmap(const std::string& key);
     std::string get_bitmap_key();

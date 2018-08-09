@@ -6,9 +6,9 @@
 
 using namespace oxygine;
 
-void buttons_panel::init()
+void buttons_panel::init(std::uint32_t cols, std::uint32_t rows)
 {
-    auto y_pos = 0 + board_container::rows_n * constants::field_size;
+    auto y_pos = 0 + rows * constants::field_size;
 
     auto x_pos = 0 + 2 * constants::field_size + constants::field_size / 2;
 
@@ -75,8 +75,8 @@ void buttons_panel::init()
 		buttons_.emplace_back(button);
 	}
 
-	auto x = constants::field_size * (board_container::cols_n - 1);
-	auto y = constants::field_size * board_container::rows_n;
+	auto x = constants::field_size * (cols - 1);
+	auto y = constants::field_size * rows;
 
 	end_turn = new Sprite;
 	end_turn->setPosition(x, y);
@@ -90,7 +90,7 @@ void buttons_panel::init()
 	});
 
 	entity_logo = new Sprite;
-	entity_logo->setPosition(constants::field_size / 4, (board_container::rows_n) * constants::field_size + constants::field_size / 8);
+	entity_logo->setPosition(constants::field_size / 4, (rows) * constants::field_size + constants::field_size / 8);
 	entity_logo->attachTo(getStage());
 	entity_logo->setScale(1.2f);
 	entity_logo->addEventListener(TouchEvent::CLICK, [this](Event*) {
@@ -103,17 +103,11 @@ void buttons_panel::init()
     });
     entity_logo->addEventListener(TouchEvent::OUT, [this](Event* ev){
         entity_logo->setScale(1.2);
-
-        if (description_ptr) {
-            description_ptr->detach();
-            description_ptr = nullptr;
-            desc_rect->detach();
-            desc_rect = nullptr;
-        }
+        remove_entity_info();
     });
 
     entity_name = new TextField;
-    entity_name->setPosition(constants::field_size / 4, (board_container::rows_n + 1) * constants::field_size + constants::field_size / 8);
+    entity_name->setPosition(constants::field_size / 4, (rows + 1) * constants::field_size + constants::field_size / 8);
     entity_name->attachTo(getStage());
     entity_name->setFontSize(22);
     entity_name->setColor(Color::White);
@@ -121,7 +115,7 @@ void buttons_panel::init()
 
     entity_health = new TextField;
     entity_health->setPosition(constants::field_size + constants::field_size / 1.8,
-                               board_container::rows_n * constants::field_size + constants::field_size / 4);
+                               rows * constants::field_size + constants::field_size / 4);
     entity_health->attachTo(getStage());
     entity_health->setFontSize(28);
     entity_health->setColor(Color::LimeGreen);
@@ -130,7 +124,7 @@ void buttons_panel::init()
 
     entity_power = new TextField;
     entity_power->setPosition(constants::field_size + constants::field_size / 1.2,
-                              board_container::rows_n * constants::field_size + constants::field_size / 1.5);
+                              rows * constants::field_size + constants::field_size / 1.5);
     entity_power->attachTo(getStage());
     entity_power->setFontSize(28);
     entity_power->setColor(Color::DodgerBlue);
@@ -179,10 +173,13 @@ void buttons_panel::init()
         border->addEventListener(TouchEvent::OVER, [border, n, this](Event *ev) {
             border->setScale(1.2);
             border->setPriority(55);
+
+            on_active_effect_fn();
         });
         border->addEventListener(TouchEvent::OUT, [border, n, this](Event *ev) {
             border->setScale(1);
             border->setPriority(45);
+            remove_active_effect();
         });
     }
 }
@@ -190,6 +187,7 @@ void buttons_panel::init()
 void buttons_panel::set_for_entity_for(std::uint32_t entity_id,
 									   const std::string& entity_name,
                                        const std::string& entity_health,
+                                       const std::string& entity_power,
 									   const std::array<std::string, 5>& button_bitmaps) {
 
 	if (entity_id != std::numeric_limits<decltype(entity_id)>::max()) {
@@ -199,7 +197,7 @@ void buttons_panel::set_for_entity_for(std::uint32_t entity_id,
 
     this->entity_name->setText(entity_name);
     this->entity_health->setText(entity_health);
-    this->entity_power->setText(entity_health);
+    this->entity_power->setText(entity_power);
 
 	for (std::int32_t i = 0; i < 5; ++i) {
 		if (!button_bitmaps[i].empty()) {

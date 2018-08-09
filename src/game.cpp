@@ -18,7 +18,7 @@ void game::setup() {
     board_panel_.set_on_board([this](std::uint32_t col, std::uint32_t row) {
         sender(make_on_board_message(player_id, col, row));
     });
-    board_panel_.init(10, 15);
+    board_panel_.init(board_container::rows_n, board_container::cols_n);
 
     buttons_panel_.set_on_button([this](std::uint32_t n) {
         sender(make_on_button_message(player_id, n));
@@ -44,61 +44,26 @@ void game::setup() {
         entity_info += "\nActive effects:\n" + active_effects;
 
         buttons_panel_.set_entity_info(entity_info);
-
-//        if (description_ptr) {
-//            description_ptr->detach();
-//            description_ptr = nullptr;
-//            desc_rect->detach();
-//            desc_rect = nullptr;
-//            desc_init_pos = oxygine::Vector2(0, 0);
-//        }
-//
-//        description_ptr = new oxygine::TextField;
-//        description_ptr->attachTo(oxygine::getStage());
-//        description_ptr->setFontSize(18);
-//        description_ptr->setColor(oxygine::Color::White);
-//        description_ptr->setFont(res::ui.getResFont("main"));
-//        description_ptr->setText(effects);
-//        description_ptr->setPriority(10000);
-//        description_ptr->setTouchEnabled(false);
-//        description_ptr->setPosition(getStage()->getWidth() / 2, getStage()->getHeight() / 1.5);
-//        description_ptr->setHAlign(oxygine::TextStyle::HALIGN_MIDDLE);
-//        description_ptr->setVAlign(oxygine::TextStyle::VALIGN_MIDDLE);
-//
-//        oxygine::RectF bounds;
-//        description_ptr->getBounds(bounds);
-//        bounds.expand(oxygine::Vector2(10, 10), oxygine::Vector2(10, 20));
-//
-//        desc_rect = new oxygine::ColorRectSprite;
-//        desc_rect->attachTo(oxygine::getStage());
-//        desc_rect->setSize(bounds.getSize());
-//        desc_rect->setColor(oxygine::Color::Black);
-//        desc_rect->setPriority(9999);
-//        desc_rect->setTouchEnabled(false);
-//        desc_rect->setAnchor(0.5, 0.5);
-//        desc_rect->setPosition(getStage()->getWidth() / 2, getStage()->getHeight() / 1.5);
-//
-//        oxygine::getStage()->addEventListener(oxygine::TouchEvent::MOVE, [=](oxygine::Event* ev) {
-//
-//            oxygine::TouchEvent *touch = (oxygine::TouchEvent *) ev;
-//            auto pos = touch->localPosition;
-//
-//            if (desc_init_pos == oxygine::Vector2(0, 0)) {
-//                desc_init_pos = pos;
-//            } else if (desc_init_pos.distance(pos) > 50) {
-//                if (description_ptr) {
-//                    description_ptr->detach();
-//                    description_ptr = nullptr;
-//                    desc_rect->detach();
-//                    desc_rect = nullptr;
-//                    desc_init_pos = oxygine::Vector2(0, 0);
-//                }
-//                oxygine::getStage()->removeEventListener(ev->listenerID);
-//            }
-//        });
-
     });
-    buttons_panel_.init();
+    buttons_panel_.set_on_active_effect_fn([this]() {
+        auto selected_entity_id = state.board.at(lstate.selected_index);
+
+
+        std::string active_effects;
+        for (auto&& effect : state.entities_additional_effects[selected_entity_id]) {
+            active_effects += effect;
+            active_effects += "\n";
+        }
+
+        if (active_effects.empty()) {
+            active_effects = "None.\n";
+        }
+        std::string active_effects_msg = "\nActive effects:\n" + active_effects;
+
+        buttons_panel_.set_active_effect(active_effects_msg);
+    });
+
+    buttons_panel_.init(board_container::cols_n, board_container::rows_n);
 }
 
 void game::process_messages() {
@@ -114,7 +79,11 @@ void game::process_messages() {
             using nlohmann::json;
             json data = json::parse(message);
 
-            if (data.count("client_id")) {
+            if (data.count("map_size")) {
+//                map_size = data["map_size"];
+
+            } else if (data.count("client_id")) {
+                std::cout << "client_id:\n";
                 player_id = data["client_id"];
 
             } else if (data.count("map_name")) {
@@ -131,14 +100,15 @@ void game::process_messages() {
             } else if (data.count("entities_pack")) {
 
                 std::unordered_map<std::uint32_t,
-                        std::tuple<std::string, std::int32_t, std::uint32_t>> entities_pack;
+                        std::tuple<std::string, std::int32_t, std::uint32_t, std::uint32_t>> entities_pack;
                 json_to_unordered_map(data["entities_pack"], entities_pack);
 
                 for (auto&& entity_pack : entities_pack) {
                     sprites_manager::update_sprite(entity_pack.first,
                                                    std::get<0>(entity_pack.second),
                                                    std::get<1>(entity_pack.second),
-                                                   std::get<2>(entity_pack.second));
+                                                   std::get<2>(entity_pack.second),
+                                                   std::get<3>(entity_pack.second));
                 }
 
             } else if (data.count("remove_entity")) {
@@ -150,11 +120,13 @@ void game::process_messages() {
                 std::uint32_t entity_id = data["create_entity"];
                 std::string name = data["name"];
                 std::int32_t health = data["health"];
+                std::int32_t power = data["power"];
                 std::uint32_t index = data["index"];
 
                 sprites_manager::update_sprite(entity_id,
                                                name,
                                                health,
+                                               power,
                                                index);
 
 
@@ -171,109 +143,71 @@ void game::process_messages() {
 
             } else if (data.count("game_state")) {
                 state = data["game_state"];
-
-//                for (auto&& health_pack : state.healths) {
-//                    sprites_manager::drawer_for(health_pack.first)->set_health(health_pack.second);
-//                }
-//
-//                for (std::uint32_t index = 0; index < state.board.fields_.size(); ++index) {
-//                    for (auto&& entity_id : state.board.fields_[index]) {
-//                        sprites_manager::drawer_for(entity_id)->set_pos(board_index_to_point(index));
-//                    }
-//                }
-//
-//                update_for_entity();
+                update_for_entity();
 
             } else if (data.count("local_state")) {
                 from_json(data["local_state"], lstate);
-                update_for_entity();
                 std::cout << "update state\n";
                 board_panel_.update_state(lstate);
+                update_for_entity();
 
             } else if (data.count("description")) {
                 std::string description = data["description"];
-
-                buttons_panel_.set_desc(description);
-
-//                if (description_ptr) {
-//                    description_ptr->detach();
-//                    description_ptr = nullptr;
-//                    desc_rect->detach();
-//                    desc_rect = nullptr;
-//                    desc_init_pos = oxygine::Vector2(0, 0);
-//                }
-//
-//                description_ptr = new oxygine::TextField;
-//                description_ptr->attachTo(oxygine::getStage());
-//                description_ptr->setFontSize(18);
-//                description_ptr->setColor(oxygine::Color::White);
-//                description_ptr->setFont(res::ui.getResFont("main"));
-//                description_ptr->setText(description);
-//                description_ptr->setPriority(10000);
-//                description_ptr->setTouchEnabled(false);
-//                description_ptr->setPosition(getStage()->getWidth() / 2, getStage()->getHeight() / 1.5);
-//                description_ptr->setHAlign(oxygine::TextStyle::HALIGN_MIDDLE);
-//                description_ptr->setVAlign(oxygine::TextStyle::VALIGN_MIDDLE);
-//
-//                oxygine::RectF bounds;
-//                description_ptr->getBounds(bounds);
-//                bounds.expand(oxygine::Vector2(10, 10), oxygine::Vector2(10, 20));
-//
-//                desc_rect = new oxygine::ColorRectSprite;
-//                desc_rect->attachTo(oxygine::getStage());
-//                desc_rect->setSize(bounds.getSize());
-//                desc_rect->setColor(oxygine::Color::Black);
-//                desc_rect->setPriority(9999);
-//                desc_rect->setTouchEnabled(false);
-//                desc_rect->setAnchor(0.5, 0.5);
-//                desc_rect->setPosition(getStage()->getWidth() / 2, getStage()->getHeight() / 1.5);
-//
-//                oxygine::getStage()->addEventListener(oxygine::TouchEvent::MOVE, [=](oxygine::Event* ev) {
-//
-//                    oxygine::TouchEvent *touch = (oxygine::TouchEvent *) ev;
-//                    auto pos = touch->localPosition;
-//
-//                    if (desc_init_pos == oxygine::Vector2(0, 0)) {
-//                        desc_init_pos = pos;
-//                    } else if (desc_init_pos.distance(pos) > 50) {
-//                        if (description_ptr) {
-//                            description_ptr->detach();
-//                            description_ptr = nullptr;
-//                            desc_rect->detach();
-//                            desc_rect = nullptr;
-//                            desc_init_pos = oxygine::Vector2(0, 0);
-//                        }
-//                        oxygine::getStage()->removeEventListener(ev->listenerID);
-//                    }
-//                });
+                buttons_panel_.set_entity_info(description);
 
             } else if (data.count("animation")) {
                 animations_service::handle(data, state);
+            } else if (data.count("battle_end")) {
+                std::int32_t win_player_id = data["battle_end"];
+                if (player_id == win_player_id) {
+                    std::cout << "You win!!!\n";
+                    std::exit(0);
+                } else {
+                    std::cout << "You defeat!!!\n";
+                    std::exit(0);
+                }
             }
 
         } catch (nlohmann::detail::parse_error&) {
-
             std::cout << "Parse error in: " << message << "\n";
 
         } catch (nlohmann::detail::type_error&) {
-
             std::cout << "Type error in: " << message << "\n";
-
         }
     }
 }
 
 void game::update_for_entity()
 {
-    if (lstate.selected_index == -1)
+    if (lstate.selected_index == -1) {
         return;
+    }
+
+    std::cout << "selected_index: " << lstate.selected_index << "\n";
 
     auto entity_id = state.board.at(lstate.selected_index);
 
-    if (entity_id != std::numeric_limits<decltype(entity_id)>::max()) {
-        std::string entity_health = std::to_string(sprites_manager::drawer_for(entity_id)->health);
+    std::cout << "entity_id: " << entity_id << "\n";
 
-        buttons_panel_.set_for_entity_for(entity_id, lstate.entity_name, entity_health, lstate.button_bitmaps);
+    if (entity_id != std::numeric_limits<decltype(entity_id)>::max()) {
+
+        std::string entity_health;
+        std::string entity_power;
+
+        auto health_value = sprites_manager::drawer_for(entity_id)->health;
+        if (health_value != std::numeric_limits<std::int32_t>::max()) {
+            entity_health = std::to_string(health_value);
+        }
+        auto power_value = sprites_manager::drawer_for(entity_id)->power;
+        if (power_value != std::numeric_limits<std::int32_t>::max()) {
+            entity_power = std::to_string(power_value);
+        }
+
+        buttons_panel_.set_for_entity_for(entity_id,
+                                          lstate.entity_name,
+                                          entity_health,
+                                          entity_power,
+                                          lstate.button_bitmaps);
 
         auto this_entity_id = state.board.at(lstate.selected_index);
 

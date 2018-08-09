@@ -332,11 +332,10 @@ void bludgeon_push_handler::handle(nlohmann::json& data, game_state& g_state) {
 void change_health_handler::handle(nlohmann::json& data, game_state& g_state) {
 
 	std::int32_t to_index;
+	std::uint32_t entity_id;
 	std::int32_t change_health;
 
-	extract(data, to_index, change_health);
-
-	auto entity_id = g_state.board.at(to_index);
+	extract(data, to_index, entity_id, change_health);
 
 	oxygine::Color color = change_health < 0 ? oxygine::Color(210, 20, 15) : oxygine::Color(15, 210, 20);
 	color = (change_health == 0) ? oxygine::Color(15, 20, 210) : color;
@@ -388,7 +387,7 @@ void change_power_handler::handle(nlohmann::json& data, game_state& g_state) {
 
     auto tween = health->addTween(Actor::TweenPosition(30, -40), 300);
     tween->setDoneCallback([entity_id, change_power](Event* ev) {
-        //sprites_manager::drawer_for(entity_id)->change_health(change_power);
+        sprites_manager::drawer_for(entity_id)->change_power(change_power);
     });
     tween->detachWhenDone();
 
@@ -583,4 +582,56 @@ void transmission_handler::handle(nlohmann::json& data, game_state& g_state) {
     });
 
     animations_service::set_tween(transmission_tween);
+}
+
+void eye_shoot_to_sides_handler::handle(nlohmann::json &data, game_state &g_state) {
+    std::uint32_t from_index;
+    std::vector<std::uint32_t> sides_indexes;
+    extract(data, from_index, sides_indexes);
+
+    auto from_pos = board_index_to_point(from_index);
+    auto to_pos_first = board_index_to_point(sides_indexes[0]);
+    auto to_pos_second = board_index_to_point(sides_indexes[1]);
+    from_pos.x += 30;
+    from_pos.y += 30;
+    to_pos_first.x += 30;
+    to_pos_first.y += 30;
+    to_pos_second.x += 30;
+    to_pos_second.y += 30;
+
+    auto bullet = new oxygine::Sprite;
+    bullet->setAnchor(0.5, 0.5);
+    bullet->setPosition(from_pos);
+    bullet->attachTo(oxygine::getStage());
+    bullet->setResAnim(res::ui.getResAnim("power_bullet"));
+    bullet->setTouchEnabled(false);
+    bullet->setFlippedX(from_pos.x - to_pos_first.x > 0);
+
+    auto distance = std::sqrt(std::pow(from_pos.x - to_pos_first.x, 2) + std::pow(from_pos.y - to_pos_first.y, 2));
+
+    spTweenQueue bullet_twin = new TweenQueue;
+    bullet_twin->add(Actor::TweenPosition(to_pos_first),  distance * 2.2);
+    bullet_twin->detachWhenDone();
+    bullet->addTween(bullet_twin);
+
+    auto bullet_second = new oxygine::Sprite;
+    bullet_second->setAnchor(0.5, 0.5);
+    bullet_second->setPosition(from_pos);
+    bullet_second->attachTo(oxygine::getStage());
+    bullet_second->setResAnim(res::ui.getResAnim("power_bullet"));
+    bullet_second->setTouchEnabled(false);
+    bullet_second->setFlippedX(from_pos.x - to_pos_second.x > 0);
+
+    auto distance_second = std::sqrt(std::pow(from_pos.x - to_pos_second.x, 2) + std::pow(from_pos.y - to_pos_second.y, 2));
+
+    spTweenQueue bullet_twin_second = new TweenQueue;
+    bullet_twin_second->add(Actor::TweenPosition(to_pos_second),  distance_second * 2.2);
+    bullet_twin_second->detachWhenDone();
+    bullet_second->addTween(bullet_twin_second);
+
+    if (distance > distance_second) {
+        animations_service::set_tween(bullet_twin);
+    } else {
+        animations_service::set_tween(bullet_twin_second);
+    }
 }

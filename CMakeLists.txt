@@ -8,14 +8,14 @@ set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake_modules" ${CMAKE_MODULE_PATH})
 #find_package(SFML 2 REQUIRED network)
 ##include_directories(${SFML_INCLUDE_DIR})
 
-add_subdirectory(../libraries/oxygine-framework/ oxygine-framework)
+add_subdirectory(../Libraries/oxygine-framework/ oxygine-framework)
 add_definitions(${OXYGINE_DEFINITIONS})
 include_directories(${OXYGINE_INCLUDE_DIRS})
 link_directories(${OXYGINE_LIBRARY_DIRS})
 
 link_directories(/usr/lib/x86_64-linux-gnu/)
-include_directories(/home/abrdej/libraries/lib/)
-include_directories(/home/abrdej/libraries/asio/asio/include/)
+include_directories(/home/abrdej/Libraries/lib/)
+include_directories(/home/abrdej/Libraries/asio/asio/include/)
 
 include_directories(${CMAKE_SOURCE_DIR}/src)
 include_directories(${CMAKE_SOURCE_DIR})

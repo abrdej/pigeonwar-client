@@ -560,4 +560,12 @@ struct transmission_handler : base_handler {
 	void handle(nlohmann::json& data, game_state& g_state) override;
 };
 
+struct eye_shoot_handler : shoot_base_handler {
+    BULLET_BITMAP("power_bullet")
+};
+
+struct eye_shoot_to_sides_handler : base_handler {
+    void handle(nlohmann::json &data, game_state &g_state) override;
+};
+
 #endif //PIGEONWAR_ANIMATIONS_HANDLERS_H

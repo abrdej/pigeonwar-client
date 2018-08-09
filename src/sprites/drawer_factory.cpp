@@ -112,7 +112,10 @@ std::string drawer_factory::get_bitmap(const std::string& entity_name) {
 			{"Dragon", "dragon"},
 			{"Reaper", "reaper"},
 			{"Bomb", "bomb"},
-			{"Eye", "eye"}
+			{"Eye", "eye"},
+			{"Eye", "eye"},
+			{"Saurian", "saurian"},
+			{"Saurian Web", "saurian_web"}
 	};
 
 	try {

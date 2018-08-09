@@ -26,6 +26,7 @@ public:
     static void update_sprite(std::uint32_t entity_id,
                               const std::string& entity_name,
                               std::int32_t entity_health,
+                              std::int32_t entity_power,
                               std::uint32_t index_pos) {
 
         auto pos = board_index_to_point(index_pos);
@@ -33,11 +34,13 @@ public:
         auto it = entities.find(entity_id);
         if (it != std::end(entities)) {
             it->second->set_health(entity_health);
+            it->second->set_power(entity_power);
             it->second->set_pos(index_pos);
         } else {
             entities.emplace(entity_id, std::make_shared<entity_holder>(entity_id,
                                                                         entity_name,
                                                                         entity_health,
+                                                                        entity_power,
                                                                         pos));
         }
     }

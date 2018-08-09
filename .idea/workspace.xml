@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="pigeonwar" targetName="pigeonwar" />
+      <config projectName="pigeonwar" targetName="oxygine-framework" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="de04c963-601f-4004-89c3-51ac7c703ab4" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/pigeon-war-client.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pigeonwar.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pigeonwar.dir/CXX.includecache" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pigeonwar.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pigeonwar.dir/DependInfo.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pigeonwar.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pigeonwar.dir/build.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pigeonwar.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pigeonwar.dir/depend.internal" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pigeonwar.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pigeonwar.dir/depend.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pigeonwar.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pigeonwar.dir/flags.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pigeonwar.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pigeonwar.dir/link.txt" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pigeonwar.dir/src/animations/animations_handlers.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pigeonwar.dir/src/animations/animations_handlers.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pigeonwar.dir/src/animations/animations_service.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pigeonwar.dir/src/animations/animations_service.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pigeonwar.dir/src/client.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pigeonwar.dir/src/client.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pigeonwar.dir/src/core.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pigeonwar.dir/src/core.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pigeonwar.dir/src/game.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pigeonwar.dir/src/game.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pigeonwar.dir/src/gui/board_panel.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pigeonwar.dir/src/gui/board_panel.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pigeonwar.dir/src/gui/buttons_panel.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pigeonwar.dir/src/gui/buttons_panel.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pigeonwar.dir/src/main.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pigeonwar.dir/src/main.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pigeonwar.dir/src/messages/message_makers.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pigeonwar.dir/src/messages/message_makers.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pigeonwar.dir/src/res.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pigeonwar.dir/src/res.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pigeonwar.dir/src/sprites/drawer_factory.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pigeonwar.dir/src/sprites/drawer_factory.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pigeonwar.dir/src/sprites/entity_holder.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pigeonwar.dir/src/sprites/entity_holder.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pigeonwar.dir/src/sprites/sprites_manager.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pigeonwar.dir/src/sprites/sprites_manager.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pigeonwar.dir/src/utils/message_joiner.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pigeonwar.dir/src/utils/message_joiner.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/images/saurions_web.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/CMakeDirectoryInformation.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/C.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/C.includecache" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/CXX.includecache" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/DependInfo.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/build.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/depend.internal" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/depend.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/flags.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Actor.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Actor.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/AnimationFrame.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/AnimationFrame.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/AsyncTask.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/AsyncTask.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Box9Sprite.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Box9Sprite.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Button.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Button.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/ClipRectActor.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/ClipRectActor.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Clock.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Clock.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/ColorRectSprite.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/ColorRectSprite.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/DebugActor.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/DebugActor.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Draggable.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Draggable.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/EventDispatcher.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/EventDispatcher.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Font.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Font.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/HttpRequestTask.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/HttpRequestTask.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Image.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Image.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Input.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Input.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/InputText.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/InputText.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/MaskedRenderer.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/MaskedRenderer.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/MaskedSprite.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/MaskedSprite.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Material.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Material.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/PointerState.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/PointerState.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Polygon.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Polygon.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/PostProcess.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/PostProcess.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/ProgressBar.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/ProgressBar.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/STDMaterial.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/STDMaterial.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/STDRenderer.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/STDRenderer.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Serializable.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Serializable.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Serialize.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Serialize.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/SlidingActor.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/SlidingActor.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Sprite.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Sprite.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Stage.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Stage.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TextField.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TextField.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/ThreadLoader.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/ThreadLoader.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Tween.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/Tween.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TweenAlphaFade.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TweenAlphaFade.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TweenAnim.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TweenAnim.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TweenGlow.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TweenGlow.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TweenOutline.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TweenOutline.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TweenQueue.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/TweenQueue.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/VisualStyle.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/VisualStyle.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/WebImage.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/WebImage.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/FileSystem.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/FileSystem.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/ImageData.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/ImageData.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/ImageDataOperations.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/ImageDataOperations.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Mem2Native.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Mem2Native.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Mutex.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Mutex.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/NativeTexture.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/NativeTexture.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Object.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Object.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Renderer.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Renderer.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Restorable.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Restorable.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/STDFileSystem.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/STDFileSystem.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Texture.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/Texture.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/ThreadDispatcher.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/ThreadDispatcher.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/UberShaderProgram.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/UberShaderProgram.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/VideoDriver.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/VideoDriver.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/ZipFileSystem.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/ZipFileSystem.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/file.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/file.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/NativeTextureGLES.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/NativeTextureGLES.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/ShaderProgramGL.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/ShaderProgramGL.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/VertexDeclarationGL.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/VertexDeclarationGL.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/VideoDriverGL.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/VideoDriverGL.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/VideoDriverGLES20.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/VideoDriverGLES20.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/oxgl.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/gl/oxgl.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/log.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/log.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/oxygine.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/oxygine.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/system_data.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/core/system_data.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/DeveloperMenu.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/DeveloperMenu.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TexturesInspector.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TexturesInspector.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspector.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspector.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspectorLine.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspectorLine.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspectorPage.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspectorPage.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspectorPreview.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/dev_tools/TreeInspectorPreview.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/json/jsoncpp.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/json/jsoncpp.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/key.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/key.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/math/AffineTransform.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/math/AffineTransform.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/math/Color.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/math/Color.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/minizip/ioapi.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/minizip/ioapi.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/minizip/ioapi_mem.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/minizip/ioapi_mem.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/minizip/unzip.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/minizip/unzip.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/pugixml/pugixml.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/pugixml/pugixml.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/CreateResourceContext.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/CreateResourceContext.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAnim.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAnim.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAtlas.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAtlas.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAtlasGeneric.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAtlasGeneric.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAtlasPrebuilt.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResAtlasPrebuilt.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResBuffer.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResBuffer.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResFont.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResFont.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResFontBM.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResFontBM.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResStarlingAtlas.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/ResStarlingAtlas.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/Resource.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/Resource.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/Resources.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/Resources.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/SingleResAnim.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/res/SingleResAnim.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/text_utils/Aligner.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/text_utils/Aligner.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/text_utils/Node.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/text_utils/Node.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/text_utils/TextBuilder.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/text_utils/TextBuilder.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/utils/AtlasTool.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/utils/AtlasTool.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/utils/ImageUtils.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/utils/ImageUtils.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/utils/cdecode.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/utils/cdecode.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/utils/stringUtils.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/utils/stringUtils.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/winnie_alloc/system_alloc.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/winnie_alloc/system_alloc.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/winnie_alloc/winnie_alloc.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/CMakeFiles/oxygine-framework.dir/oxygine/src/winnie_alloc/winnie_alloc.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/Makefile" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/OXYGINE.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/OXYGINE.cbp" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/cmake_install.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/cmake_install.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/liboxygine-framework.a" afterPath="$PROJECT_DIR$/cmake-build-debug/oxygine-framework/liboxygine-framework.a" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pigeonwar" afterPath="$PROJECT_DIR$/cmake-build-debug/pigeonwar" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pigeonwar.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/pigeonwar.cbp" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/xmls/ui.xml" afterPath="$PROJECT_DIR$/cmake-build-debug/xmls/ui.xml" />
+      <change beforePath="$PROJECT_DIR$/src/animations/animations_handlers.cpp" afterPath="$PROJECT_DIR$/src/animations/animations_handlers.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/animations/animations_handlers.h" afterPath="$PROJECT_DIR$/src/animations/animations_handlers.h" />
+      <change beforePath="$PROJECT_DIR$/src/animations/animations_service.cpp" afterPath="$PROJECT_DIR$/src/animations/animations_service.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/core.cpp" afterPath="$PROJECT_DIR$/src/core.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/game.cpp" afterPath="$PROJECT_DIR$/src/game.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/gui/buttons_panel.cpp" afterPath="$PROJECT_DIR$/src/gui/buttons_panel.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/gui/buttons_panel.h" afterPath="$PROJECT_DIR$/src/gui/buttons_panel.h" />
+      <change beforePath="$PROJECT_DIR$/src/sprites/drawer_factory.cpp" afterPath="$PROJECT_DIR$/src/sprites/drawer_factory.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/sprites/entity_holder.cpp" afterPath="$PROJECT_DIR$/src/sprites/entity_holder.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/sprites/entity_holder.h" afterPath="$PROJECT_DIR$/src/sprites/entity_holder.h" />
+      <change beforePath="$PROJECT_DIR$/src/sprites/sprites_manager.h" afterPath="$PROJECT_DIR$/src/sprites/sprites_manager.h" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="477">
+              <caret line="137" column="0" lean-forward="false" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="core.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/core.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>giant_do_blow</find>
+      <find>field</find>
+      <find>handca</find>
+      <find>field_shoot</find>
+      <find>giant</find>
+      <find>immo</find>
+      <find>move</find>
+      <find>move_with_return_base_handler</find>
+      <find>reaper_insensitive</find>
+      <find>setResAnim</find>
+      <find>set_discharged</find>
+      <find>reaper_discharged</find>
+      <find>meter</find>
+      <find>grass_friendly</find>
+      <find>detonation</find>
+      <find>on_entity_fn</find>
+      <find>set_on_entity</find>
+      <find>10</find>
+      <find>state.board</find>
+      <find>remove_active_effect</find>
+      <find>remove_message</find>
+      <find>set_for_entity_for</find>
+      <find>sprites_manager</find>
+      <find>change_power_handler</find>
+      <find>heal</find>
+      <find>wolv</find>
+      <find>No bitmap name</find>
+      <find>saur</find>
+      <find>hea</find>
+      <find>power</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>&quot;},</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/cmake-build-debug/images</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/socket_.h" />
+        <option value="$PROJECT_DIR$/client.h" />
+        <option value="$PROJECT_DIR$/message_joiner.cpp" />
+        <option value="$PROJECT_DIR$/message_joiner.h" />
+        <option value="$PROJECT_DIR$/threadsafe_queue.h" />
+        <option value="$PROJECT_DIR$/pigeon_war_client.h" />
+        <option value="$PROJECT_DIR$/requests.h" />
+        <option value="$PROJECT_DIR$/gui/board_panel.cpp" />
+        <option value="$PROJECT_DIR$/example.cpp" />
+        <option value="$PROJECT_DIR$/animations_service.h" />
+        <option value="$PROJECT_DIR$/pigeon_war_client.cpp" />
+        <option value="$PROJECT_DIR$/requests.cpp" />
+        <option value="$PROJECT_DIR$/src/requests.h" />
+        <option value="$PROJECT_DIR$/src/requests.cpp" />
+        <option value="$PROJECT_DIR$/src/gui/entity_holder.cpp" />
+        <option value="$PROJECT_DIR$/src/gui/drawer_factory.h" />
+        <option value="$PROJECT_DIR$/src/gui/sprites_manager.h" />
+        <option value="$PROJECT_DIR$/src/animations_service.h" />
+        <option value="$PROJECT_DIR$/src/define_packet.h" />
+        <option value="$PROJECT_DIR$/src/health_field.h" />
+        <option value="$PROJECT_DIR$/src/messages/messages.h" />
+        <option value="$PROJECT_DIR$/src/turn_status.h" />
+        <option value="$PROJECT_DIR$/src/read_message.h" />
+        <option value="$PROJECT_DIR$/src/example.cpp" />
+        <option value="$PROJECT_DIR$/src/game_state.h" />
+        <option value="$PROJECT_DIR$/src/pigeon_war_client.cpp" />
+        <option value="$PROJECT_DIR$/src/animations/animations_service.h" />
+        <option value="$PROJECT_DIR$/src/pigeon_war_client.h" />
+        <option value="$PROJECT_DIR$/src/client.h" />
+        <option value="$PROJECT_DIR$/src/messages/requests.cpp" />
+        <option value="$PROJECT_DIR$/src/messages/requests.h" />
+        <option value="$PROJECT_DIR$/src/client.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/src/messages/message_makers.cpp" />
+        <option value="$PROJECT_DIR$/src/animations/animations_handlers.h" />
+        <option value="$PROJECT_DIR$/src/animations/animations_service.cpp" />
+        <option value="$PROJECT_DIR$/src/gui/board_panel.cpp" />
+        <option value="$PROJECT_DIR$/src/gui/board_panel.h" />
+        <option value="$PROJECT_DIR$/src/board_container.h" />
+        <option value="$PROJECT_DIR$/src/main.cpp" />
+        <option value="$PROJECT_DIR$/src/game.h" />
+        <option value="$PROJECT_DIR$/src/gui/buttons_panel.cpp" />
+        <option value="$PROJECT_DIR$/src/gui/buttons_panel.h" />
+        <option value="$PROJECT_DIR$/src/sprites/sprites_manager.h" />
+        <option value="$PROJECT_DIR$/src/sprites/entity_holder.h" />
+        <option value="$PROJECT_DIR$/src/sprites/entity_holder.cpp" />
+        <option value="$PROJECT_DIR$/src/sprites/drawer_factory.cpp" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/xmls/ui.xml" />
+        <option value="$PROJECT_DIR$/src/animations/animations_handlers.cpp" />
+        <option value="$PROJECT_DIR$/src/game.cpp" />
+        <option value="$PROJECT_DIR$/src/core.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="375" />
+    <option name="y" value="360" />
+    <option name="width" value="738" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="pigeonwar" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="pigeon-war-client" type="47feb1d3:ProjectViewModuleNode" />
+            </path>
+            <path>
+              <item name="pigeonwar" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="pigeon-war-client" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="pigeon-war-client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pigeonwar" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="pigeon-war-client" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="pigeon-war-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/cmake-build-debug/images" />
+      <recent name="$PROJECT_DIR$/data/images" />
+      <recent name="$PROJECT_DIR$/cmake-build-debug" />
+      <recent name="$PROJECT_DIR$/data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/messages" />
+      <recent name="$PROJECT_DIR$/src/utils" />
+      <recent name="$PROJECT_DIR$/src/animations" />
+      <recent name="$PROJECT_DIR$/src/sprites" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.pigeonwar">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pigeonwar" RUN_TARGET_NAME="pigeonwar" EXPLICIT_BUILD_TARGET_NAME="all">
+      <envs />
+    </configuration>
+    <configuration name="oxygine-framework" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pigeonwar" TARGET_NAME="oxygine-framework" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="pigeonwar" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pigeonwar" TARGET_NAME="pigeonwar" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pigeonwar" RUN_TARGET_NAME="pigeonwar">
+      <envs />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
+      <item index="1" class="java.lang.String" itemvalue="Application.pigeonwar" />
+      <item index="2" class="java.lang.String" itemvalue="Application.oxygine-framework" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="de04c963-601f-4004-89c3-51ac7c703ab4" name="Default" comment="" />
+      <created>1520412384741</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1520412384741</updated>
+      <workItem from="1520412385870" duration="908000" />
+      <workItem from="1520628565938" duration="8000" />
+      <workItem from="1520630934021" duration="725000" />
+      <workItem from="1520633213953" duration="7732000" />
+      <workItem from="1520680826245" duration="37538000" />
+      <workItem from="1520764651308" duration="19064000" />
+      <workItem from="1520797142631" duration="1427000" />
+      <workItem from="1520876192956" duration="7515000" />
+      <workItem from="1520963477937" duration="10361000" />
+      <workItem from="1520976836552" duration="2479000" />
+      <workItem from="1520984326457" duration="262000" />
+      <workItem from="1520984821933" duration="42000" />
+      <workItem from="1521027742428" duration="163000" />
+      <workItem from="1521498968862" duration="4458000" />
+      <workItem from="1521580438351" duration="8220000" />
+      <workItem from="1521653679450" duration="12689000" />
+      <workItem from="1522266508121" duration="1777000" />
+      <workItem from="1522269708150" duration="1798000" />
+      <workItem from="1522271516951" duration="1797000" />
+      <workItem from="1522273357359" duration="1796000" />
+      <workItem from="1522275163422" duration="1798000" />
+      <workItem from="1522276970927" duration="784000" />
+      <workItem from="1522306498261" duration="964000" />
+      <workItem from="1522314226920" duration="836000" />
+      <workItem from="1522323429222" duration="46000" />
+      <workItem from="1522357327839" duration="1797000" />
+      <workItem from="1522359138981" duration="1796000" />
+      <workItem from="1522360942944" duration="876000" />
+      <workItem from="1522406493908" duration="306000" />
+      <workItem from="1522442204445" duration="1787000" />
+      <workItem from="1522444001630" duration="1797000" />
+      <workItem from="1522470898877" duration="1631000" />
+      <workItem from="1522472747274" duration="1796000" />
+      <workItem from="1522474555291" duration="1796000" />
+      <workItem from="1522476360038" duration="1796000" />
+      <workItem from="1522478166474" duration="1764000" />
+      <workItem from="1522479972373" duration="1794000" />
+      <workItem from="1522481778967" duration="522000" />
+      <workItem from="1522965017301" duration="66000" />
+      <workItem from="1522965092841" duration="774000" />
+      <workItem from="1522966997894" duration="667000" />
+      <workItem from="1523478918695" duration="1475000" />
+      <workItem from="1523480852906" duration="610000" />
+      <workItem from="1523529182187" duration="10000" />
+      <workItem from="1527265007980" duration="11071000" />
+      <workItem from="1530967187533" duration="4267000" />
+      <workItem from="1531146777822" duration="40000" />
+      <workItem from="1531146835940" duration="42000" />
+      <workItem from="1531407943501" duration="3770000" />
+      <workItem from="1533653635639" duration="3583000" />
+      <workItem from="1533657275029" duration="1000" />
+      <workItem from="1533657280779" duration="1503000" />
+      <workItem from="1533825743134" duration="2479000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="175003000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959569" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3384458" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22392638" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997955" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924336" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/images/magic_suck.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/images/sabers_attack.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/images/drain.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/images/cure.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/images/field_shoot.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/images/shield.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sprites/sprites_manager.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Libraries/oxygine-framework/oxygine/src/Sprite.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="33" column="48" lean-forward="false" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Libraries/oxygine-framework/oxygine/src/TweenQueue.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1062">
+          <caret line="59" column="4" lean-forward="false" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Libraries/oxygine-framework/oxygine/src/Actor.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-18">
+          <caret line="15" column="10" lean-forward="false" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Libraries/oxygine-framework/oxygine/src/TweenAnim.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Libraries/oxygine-framework/oxygine/src/TweenAnim.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Libraries/oxygine-framework/oxygine/src/res/SingleResAnim.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Libraries/oxygine-framework/oxygine/src/res/ResAnim.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Libraries/oxygine-framework/oxygine/src/Tween.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="195" column="34" lean-forward="false" selection-start-line="195" selection-start-column="34" selection-end-line="195" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Libraries/oxygine-framework/oxygine/src/Sprite.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3204">
+          <caret line="178" column="5" lean-forward="false" selection-start-line="178" selection-start-column="5" selection-end-line="178" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Libraries/oxygine-framework/oxygine/src/res/ResAnim.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/images/reaper_discharged.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sprites/drawer_factory.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Libraries/oxygine-framework/oxygine/src/Actor.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="495" column="16" lean-forward="false" selection-start-line="495" selection-start-column="16" selection-end-line="495" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game_state.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/states.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/board_container.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="16" column="43" lean-forward="false" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/images/grass2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/images/grass.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/board_panel.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Libraries/oxygine-framework/oxygine/src/TextField.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="41" lean-forward="false" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/board_panel.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/buttons_panel.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/messages/json_message_conversions.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sprites/entity_holder.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="32" column="39" lean-forward="false" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/animations/animations_service.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1278">
+          <caret line="71" column="19" lean-forward="false" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sprites/drawer_factory.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2106">
+          <caret line="117" column="42" lean-forward="false" selection-start-line="117" selection-start-column="42" selection-end-line="117" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/xmls/ui.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="121" column="35" lean-forward="false" selection-start-line="121" selection-start-column="35" selection-end-line="121" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/animations/animations_handlers.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="337" column="54" lean-forward="true" selection-start-line="337" selection-start-column="54" selection-end-line="337" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/animations/animations_handlers.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="461" column="12" lean-forward="false" selection-start-line="461" selection-start-column="12" selection-end-line="461" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/animations/animations_service.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="41" column="16" lean-forward="false" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/buttons_panel.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="186" column="38" lean-forward="false" selection-start-line="186" selection-start-column="20" selection-end-line="186" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sprites/sprites_manager.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="36" column="28" lean-forward="false" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sprites/entity_holder.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="102" column="15" lean-forward="false" selection-start-line="102" selection-start-column="10" selection-end-line="102" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/hashtable_policy.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="645" column="0" lean-forward="false" selection-start-line="645" selection-start-column="0" selection-end-line="645" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/thread">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="150" column="0" lean-forward="false" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="125" column="37" lean-forward="false" selection-start-line="125" selection-start-column="37" selection-end-line="125" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/unordered_map.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="684" column="0" lean-forward="false" selection-start-line="684" selection-start-column="0" selection-end-line="684" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="137" column="0" lean-forward="false" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -78,4 +78,6 @@ void animations_service::initialize() {
 	add<detonation_handler>("detonation");
 	add<repair_handler>("repair");
 	add<transmission_handler>("transmission");
+	add<eye_shoot_handler>("eye_shoot");
+	add<eye_shoot_to_sides_handler>("eye_shoot_to_sides");
 }

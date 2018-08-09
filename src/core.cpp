@@ -21,7 +21,7 @@ void initizalize() {
     res::load();
 
     game_ = std::make_unique<game>(client_->get_message_queue(),
-                                   [&client_](const std::string& msg) {
+                                   [](const std::string& msg) {
                                        client_->send_message(msg);
                                    });
 
